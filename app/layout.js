@@ -1,5 +1,11 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import '@fontsource/libre-baskerville/400.css';
+import '@fontsource/libre-baskerville/700.css';
+
+import '@fontsource/source-serif-4/400.css';
+import '@fontsource/source-serif-4/700.css';
+import '@fontsource/source-serif-4/900.css';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
