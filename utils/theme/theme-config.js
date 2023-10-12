@@ -1,6 +1,7 @@
 import { createTheme, createMuiTheme } from '@mui/material'
 
 export const themeOptions = {
+  
     palette: {
       mode: 'light',
       primary: {
@@ -32,7 +33,7 @@ export const themeOptions = {
       },
       h3: {
         fontFamily: 'Libre Baskerville',
-        fontSize: '1.6rem',
+        fontSize: '1.2rem',
       },
       h4: {
         fontFamily: 'Libre Baskerville',
@@ -67,6 +68,20 @@ export const themeOptions = {
       },
       overline: {
         fontSize: '1rem',
+      },
+      button: {
+        fontFamily: 'Libre Baskerville',
+        textTransform: 'none',
+        fontSize: '1rem',
+      }
+    },
+    breakpoints: {
+      values: {
+        xs: 0,
+        sm: 600,
+        md: 768,
+        lg: 1085,
+        xl: 1536,
       },
     },
   };
