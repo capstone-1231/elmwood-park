@@ -161,7 +161,7 @@ const FooterNav = () => {
                 }}>Contact Us</Link>
         </FooterLinkFlex>
         <ContactContainer width="12rem">
-                    <Typography color="inherit">12505 75 street NW, Edmonton, AB </Typography>
+                    <Typography color="inherit">12505 75 Street NW, Edmonton, AB </Typography>
                     <Typography color="inherit">T5B 1C8</Typography>
                     <Typography color="inherit">(780) 479-1035</Typography>
         </ContactContainer>
