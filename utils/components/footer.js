@@ -123,8 +123,7 @@ const FooterNav = () => {
                     color: '#ffffff',
                     borderRadius: '5rem'
                     },
-                }}
-                >Home</Link>
+                }}>Home</Link>
                 <Link href='/about_us' color="inherit" disableRipple sx={{
                     ':hover, :active, :focus': {
                     bgcolor: 'secondary.main',
