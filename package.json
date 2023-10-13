@@ -15,7 +15,7 @@
     "@fontsource/libre-baskerville": "^5.0.8",
     "@fontsource/source-serif-4": "^5.0.12",
     "@mui/icons-material": "^5.14.13",
-    "@mui/material": "^5.14.12",
+    "@mui/material": "^5.14.13",
     "next": "^13.5.4",
     "react": "latest",
     "react-dom": "latest"
