@@ -58,109 +58,127 @@ const Navbar = () => {
   return (
     <AppBar position="static">
 
-{/* ----------------------- DESKTOP MENU ------------------------- */}
+      {/* ----------------------- DESKTOP MENU ------------------------- */}
 
-        <NavbarContainer sx={{
-    display: { xs: "none", sm: "none", md: "none", lg: "inherit", xl: "inherit"},
-  }}>
-          <LinkContainer>
-            <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}
-      >Home</Link>
-            <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}>About Us</Link>
-            <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}>Membership</Link>
-          </LinkContainer>
-          <Icon sx={{ padding: '0 2rem' }}  src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" />
-          <LinkContainer>
+      <NavbarContainer sx={{
+        display: { xs: "none", sm: "none", md: "none", lg: "inherit", xl: "inherit" },
+      }}>
+        <LinkContainer>
           <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}>Amenities</Link>
-            <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}>Events</Link>
-            <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}>Contact Us</Link>
-          </LinkContainer>
-        </NavbarContainer>
+            ':hover, :active, :focus': {
+              bgcolor: 'secondary.main',
+              color: '#ffffff',
+              borderRadius: '5rem',
+            },
+          }}
+          >Home</Link>
+          <Link href='#' color="inherit" disableRipple sx={{
+            ':hover, :active, :focus': {
+              bgcolor: 'secondary.main',
+              color: '#ffffff',
+              borderRadius: '5rem',
+            },
+          }}>About Us</Link>
+          <Link href='#' color="inherit" disableRipple sx={{
+            ':hover, :active, :focus': {
+              bgcolor: 'secondary.main',
+              color: '#ffffff',
+              borderRadius: '5rem',
+            },
+          }}>Membership</Link>
+        </LinkContainer>
+        <Icon sx={{ padding: '0 2rem' }} src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" />
+        <LinkContainer>
+          <Link href='#' color="inherit" disableRipple sx={{
+            ':hover, :active, :focus': {
+              bgcolor: 'secondary.main',
+              color: '#ffffff',
+              borderRadius: '5rem',
+            },
+          }}>Amenities</Link>
+          <Link href='#' color="inherit" disableRipple sx={{
+            ':hover, :active, :focus': {
+              bgcolor: 'secondary.main',
+              color: '#ffffff',
+              borderRadius: '5rem',
+            },
+          }}>Events</Link>
+          <Link href='#' color="inherit" disableRipple sx={{
+            ':hover, :active, :focus': {
+              bgcolor: 'secondary.main',
+              color: '#ffffff',
+              borderRadius: '5rem',
+            },
+          }}>Contact Us</Link>
+        </LinkContainer>
+      </NavbarContainer>
 
-{/* ----------------------- MOBILE MENU ------------------------- */}
+      {/* ----------------------- MOBILE MENU ------------------------- */}
 
-        <MobileNavbarContainer sx={{
-    display: { xs: "inherit", sm: "inherit", md: "inherit", lg: "none", xl: "none"},
-  }}>
-        <Icon src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" />
+      <MobileNavbarContainer sx={{
+        display: { xs: "inherit", sm: "inherit", md: "inherit", lg: "none", xl: "none" },
+      }}>
+        <Link href='index.js'><Icon src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" /></Link>
         <IconButton
-            onClick={toggleMobileMenu}
-            color="inherit" >
-            
-            {showMobileMenu ? <CloseIcon sx={{ fontSize: 50 }} /> : <MenuIcon sx={{ fontSize: 50 }} />}
-          </IconButton>
-          {showMobileMenu && (
-        <MobileMenu>
-          <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}
-      >Home</Link>
-          <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}>About Us</Link>
-          <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}>Membership</Link>
-    <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}>Amenities</Link>
-    <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}>Events</Link>
-    <Link href='#' color="inherit" disableRipple sx={{
-    ':hover, :active, :focus': {
-      bgcolor: 'secondary.main',
-      color: '#ffffff',
-      borderRadius:  '5rem',
-    },}}>Contact Us</Link>
-        </MobileMenu>
-      )}
-        </MobileNavbarContainer>
+          onClick={toggleMobileMenu}
+          color="inherit" >
+
+          {showMobileMenu ? <CloseIcon sx={{ fontSize: 50 }} /> : <MenuIcon sx={{ fontSize: 50 }} />}
+        </IconButton>
+        {showMobileMenu && (
+          <MobileMenu>
+            <Link href='#' color="inherit" disableRipple sx={{
+              margin: '0.5rem',
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}
+            >Home</Link>
+            <Link href='#' color="inherit" disableRipple sx={{
+              margin: '0.5rem',
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}>About Us</Link>
+            <Link href='#' color="inherit" disableRipple sx={{
+              margin: '0.5rem',
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}>Membership</Link>
+            <Link href='#' color="inherit" disableRipple sx={{
+              margin: '0.5rem',
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}>Amenities</Link>
+            <Link href='#' color="inherit" disableRipple sx={{
+              margin: '0.5rem',
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}>Events</Link>
+            <Link href='#' color="inherit" disableRipple sx={{
+              margin: '0.5rem',
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}>Contact Us</Link>
+          </MobileMenu>
+        )}
+      </MobileNavbarContainer>
     </AppBar>
   );
 };
