@@ -28,7 +28,7 @@ const LinkContainer = styled('div')({
 
 const Link = styled(Button)({
   margin: '0 1rem',
-  padding: '0.5rem 1rem'
+  padding: '0.5rem 1rem',
 });
 
 const Icon = styled('img')({
@@ -64,22 +64,22 @@ const Navbar = () => {
         display: { xs: "none", sm: "none", md: "none", lg: "inherit", xl: "inherit" },
       }}>
         <LinkContainer>
-          <Link href='#' color="inherit" disableRipple sx={{
+          <Link href='/' color="inherit" disableRipple sx={{
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
-              borderRadius: '5rem',
+              borderRadius: '5rem'
             },
           }}
           >Home</Link>
-          <Link href='#' color="inherit" disableRipple sx={{
+          <Link href='/about_us' color="inherit" disableRipple sx={{
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
               borderRadius: '5rem',
             },
           }}>About Us</Link>
-          <Link href='#' color="inherit" disableRipple sx={{
+          <Link href='/membership' color="inherit" disableRipple sx={{
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
@@ -87,23 +87,23 @@ const Navbar = () => {
             },
           }}>Membership</Link>
         </LinkContainer>
-        <Icon sx={{ padding: '0 2rem' }} src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" />
+        <Link href='/'><Icon sx={{ padding: '0 2rem'}} src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" /></Link>
         <LinkContainer>
-          <Link href='#' color="inherit" disableRipple sx={{
+          <Link href='/amenities' color="inherit" disableRipple sx={{
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
               borderRadius: '5rem',
             },
           }}>Amenities</Link>
-          <Link href='#' color="inherit" disableRipple sx={{
+          <Link href='events' color="inherit" disableRipple sx={{
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
               borderRadius: '5rem',
             },
           }}>Events</Link>
-          <Link href='#' color="inherit" disableRipple sx={{
+          <Link href='contact_us' color="inherit" disableRipple sx={{
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
@@ -118,7 +118,7 @@ const Navbar = () => {
       <MobileNavbarContainer sx={{
         display: { xs: "inherit", sm: "inherit", md: "inherit", lg: "none", xl: "none" },
       }}>
-        <Link href='index.js'><Icon src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" /></Link>
+        <Link href='/'><Icon src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" /></Link>
         <IconButton
           onClick={toggleMobileMenu}
           color="inherit" >
@@ -127,7 +127,7 @@ const Navbar = () => {
         </IconButton>
         {showMobileMenu && (
           <MobileMenu>
-            <Link href='#' color="inherit" disableRipple sx={{
+            <Link href='/' color="inherit" disableRipple sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -136,7 +136,7 @@ const Navbar = () => {
               },
             }}
             >Home</Link>
-            <Link href='#' color="inherit" disableRipple sx={{
+            <Link href='/about_us' color="inherit" disableRipple sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -144,7 +144,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>About Us</Link>
-            <Link href='#' color="inherit" disableRipple sx={{
+            <Link href='/membership' color="inherit" disableRipple sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -152,7 +152,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>Membership</Link>
-            <Link href='#' color="inherit" disableRipple sx={{
+            <Link href='/amenities' color="inherit" disableRipple sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -160,7 +160,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>Amenities</Link>
-            <Link href='#' color="inherit" disableRipple sx={{
+            <Link href='/events' color="inherit" disableRipple sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -168,7 +168,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>Events</Link>
-            <Link href='#' color="inherit" disableRipple sx={{
+            <Link href='/contact_us' color="inherit" disableRipple sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
