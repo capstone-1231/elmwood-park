@@ -28,7 +28,8 @@ const LinkContainer = styled('div')({
 
 const Link = styled(Button)({
   margin: '0 1rem',
-  padding: '0.5rem 1rem',
+  padding: '0.5rem 0.8rem',
+  // if the horizontal padding is more than 0.8rem the nav starts to break around the medium breakpoint 
 });
 
 const Icon = styled('img')({
