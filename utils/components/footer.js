@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/system';
@@ -77,7 +77,7 @@ const FooterNav = () => {
         <IconContainer sx={{
           flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" },
         }}>
-        <Link href='/'><Icon src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" /></Link>
+            <Link href='/'><Icon src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" /></Link>
             <SocialIconContainer sx={{
           flexDirection: { xs: "row", sm: "row", md: "row", lg: "column", xl: "column" },
           padding: { xs: "2rem 0 0 0", sm: "2rem 0 0 0", md: "2rem 0 0 0", lg: "inherit", xl: "inherit" }
@@ -150,7 +150,7 @@ const FooterNav = () => {
         }}>
                     <Typography color="inherit">12505 75 Street NW, Edmonton, AB </Typography>
                     <Typography color="inherit">T5B 1C8</Typography>
-                    <Typography color="inherit">(780) 479-1035</Typography>
+                    <Typography color="inherit">(780)-479-1035</Typography>
         </ContactContainer>
       </FooterContainer>
     </AppBar>
