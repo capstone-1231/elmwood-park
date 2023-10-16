@@ -12,7 +12,7 @@ export const themeOptions = {
         main: '#50891e',
       },
       background: {
-        default: '#fffff2',
+        default: '#FFFFF2',
       },
       text: {
         primary: '#816719',

@@ -4,6 +4,7 @@ import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
 
 import Typography from '@mui/material/Typography';
+import Container  from '@mui/material/Container';
 
 export default function Page() {
   return (
