@@ -11,7 +11,7 @@ export default function Page() {
     <div>
       <Head>
         <title>Contact Us</title>
-        <meta name="description" content="This is the About Us page Elmwood Park Community League's official website." />
+        <meta name="description" content="This is the Contact Us page on Elmwood Park Community League's official website." />
         <link rel="icon" href="favicon.ico" sizes="any"/>
       </Head>
       <header>
