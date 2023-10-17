@@ -6,7 +6,7 @@ export const themeOptions = {
       mode: 'light',
       primary: {
         main: '#d9e2b5',
-        contrastText: '#707070',
+        contrastText: '#302400',
       },
       secondary: {
         main: '#50891e',
@@ -18,6 +18,9 @@ export const themeOptions = {
         primary: '#816719',
         secondary: '#5C4500',
       },
+      button: {
+        default: '#BFF1AD'
+      }
     },
     typography: {
       fontFamily: 'Be Vietnam Pro',
