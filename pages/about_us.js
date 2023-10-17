@@ -17,7 +17,7 @@ export default function Page() {
       <Navbar />
       </header>
       <main>
-      <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem' }} >About Us</Typography>
+      <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >About Us</Typography>
       </main>
       <footer>
         <FooterNav />
