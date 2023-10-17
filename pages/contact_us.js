@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
+import ContactForm from '@/utils/components/contactform';
 
 import Typography from '@mui/material/Typography';
 
@@ -17,7 +18,8 @@ export default function Page() {
       <Navbar />
       </header>
       <main>
-      <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem' }} >Contact Us</Typography>
+      <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center'}} >Contact Us</Typography>
+      <ContactForm />
       </main>
       <footer>
         <FooterNav />
