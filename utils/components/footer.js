@@ -15,10 +15,6 @@ const FooterContainer = styled('div')({
   background: '#d9e2b5',
   flexWrap: 'wrap',
   gap: '1rem',
-  position: 'absolute',
-  bottom: "0",
-  left: 0,
-  right: 0,
 });
 
 const FooterLinkFlex = styled('div')({
@@ -67,7 +63,7 @@ const Icon = styled('img')({
 
 const FooterNav = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" margin="2rem 0">
 
       {/* ----------------------- FOOTER MENU ------------------------- */}
 
@@ -77,7 +73,7 @@ const FooterNav = () => {
         <IconContainer sx={{
           flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" },
         }}>
-            <Link href='/'><Icon src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" /></Link>
+            <Link href='/'><Icon src="elmwood-park-logo-updated.png" alt="Elmwood Park Community League Icon" /></Link>
             <SocialIconContainer sx={{
           flexDirection: { xs: "row", sm: "row", md: "row", lg: "column", xl: "column" },
           padding: { xs: "2rem 0 0 0", sm: "2rem 0 0 0", md: "2rem 0 0 0", lg: "inherit", xl: "inherit" }
