@@ -89,29 +89,7 @@ const ContactForm = () => {
             }}
           />
         </NameFlexContainer>
-          <TextField sx={{ 
-        background: '#ffffff',
-        "& label.Mui-focused": {
-          color: "#50891e"
-        },
-        "& .MuiOutlinedInput-root": {
-          "&.Mui-focused fieldset": {
-            borderColor: "#50891e"
-          }
-        }
-       }}
-            label="Phone Number"
-            name="phoneNumber"
-            value={formData.phoneNumber}
-            onChange={handleInputChange}
-            required
-            InputProps={{
-              sx: {
-                borderRadius: "0.8rem",
-              }
-            }}
-          />
-          <TextField sx={{ 
+        <TextField sx={{ 
         background: '#ffffff',
         "& label.Mui-focused": {
           color: "#50891e"
@@ -145,13 +123,33 @@ const ContactForm = () => {
           }
         }
        }}
+            label="Phone Number"
+            name="phoneNumber"
+            value={formData.phoneNumber}
+            onChange={handleInputChange}
+            InputProps={{
+              sx: {
+                borderRadius: "0.8rem",
+              }
+            }}
+          />
+          <TextField sx={{ 
+        background: '#ffffff',
+        "& label.Mui-focused": {
+          color: "#50891e"
+        },
+        "& .MuiOutlinedInput-root": {
+          "&.Mui-focused fieldset": {
+            borderColor: "#50891e"
+          }
+        }
+       }}
             label="Message"
             name="message"
             multiline
             rows={4}
             value={formData.message}
             onChange={handleInputChange}
-            required
             InputProps={{
               sx: {
                 borderRadius: "0.8rem",
