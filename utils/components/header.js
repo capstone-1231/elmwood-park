@@ -119,7 +119,7 @@ const Navbar = () => {
       <MobileNavbarContainer sx={{
         display: { xs: "inherit", sm: "inherit", md: "inherit", lg: "none", xl: "none" },
       }}>
-        <Link href='/'><Icon src="elmwood-park-logo.webp" alt="Elmwood Park Community League Icon" /></Link>
+        <Link href='/'><Icon src="elmwood-park-logo-updated.png" alt="Elmwood Park Community League Icon" /></Link>
         <IconButton
           onClick={toggleMobileMenu}
           color="inherit" >
