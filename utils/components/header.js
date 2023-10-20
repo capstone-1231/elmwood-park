@@ -29,7 +29,8 @@ const LinkContainer = styled('div')({
 const Link = styled(Button)({
   margin: '0 1rem',
   padding: '0.5rem 0.8rem',
-  // if the horizontal padding is more than 0.8rem the nav starts to break around the medium breakpoint 
+  // if the horizontal padding is more than 0.8rem the nav starts to break around the medium breakpoint
+  fontFamily: 'Be Vietnam Pro'
 });
 
 const Icon = styled('img')({
@@ -128,7 +129,7 @@ const Navbar = () => {
         </IconButton>
         {showMobileMenu && (
           <MobileMenu>
-            <Link href='/' color="inherit" disableRipple sx={{
+            <Link href='/' color="inherit" sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -137,7 +138,7 @@ const Navbar = () => {
               },
             }}
             >Home</Link>
-            <Link href='/about_us' color="inherit" disableRipple sx={{
+            <Link href='/about_us' color="inherit" sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -145,7 +146,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>About Us</Link>
-            <Link href='/membership' color="inherit" disableRipple sx={{
+            <Link href='/membership' color="inherit" sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -153,7 +154,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>Membership</Link>
-            <Link href='/amenities' color="inherit" disableRipple sx={{
+            <Link href='/amenities' color="inherit" sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -161,7 +162,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>Amenities</Link>
-            <Link href='/events' color="inherit" disableRipple sx={{
+            <Link href='/events' color="inherit" sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -169,7 +170,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>Events</Link>
-            <Link href='/contact_us' color="inherit" disableRipple sx={{
+            <Link href='/contact_us' color="inherit" sx={{
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
