@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
+import HeroBanner from '@/utils/components/banner'
 
 import Typography from '@mui/material/Typography';
 import Container  from '@mui/material/Container';
@@ -18,7 +19,8 @@ export default function Page() {
       <Navbar />
       </header>
       <main>
-      <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Welcome to Elmwood Park</Typography>
+      {/* <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Welcome to Elmwood Park</Typography> */}
+      <HeroBanner />
       </main>
       <footer>
         <FooterNav />
