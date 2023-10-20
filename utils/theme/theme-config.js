@@ -81,7 +81,7 @@ export const themeOptions = {
     breakpoints: {
       values: {
         xs: 0,
-        sm: 600,
+        sm: 300,
         md: 768,
         lg: 1085,
         xl: 1536,

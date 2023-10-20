@@ -18,33 +18,33 @@ const FooterContainer = styled('div')({
 });
 
 const FooterLinkFlex = styled('div')({
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: '1rem',
-  });
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'center',
+  alignItems: 'center',
+  padding: '1rem',
+});
 
 const ContactContainer = styled('div')({
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'start',
-    padding: '1rem',
-    
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'start',
+  padding: '1rem',
+
 })
 
 const IconContainer = styled('div')({
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-  });
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'center',
+  alignItems: 'center',
+});
 
 const SocialIconContainer = styled('div')({
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'start',
-    alignItems: 'center',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'start',
+  alignItems: 'center',
 })
 
 const LinkContainer = styled('div')({
@@ -68,85 +68,86 @@ const FooterNav = () => {
       {/* ----------------------- FOOTER MENU ------------------------- */}
 
       <FooterContainer sx={{
-          flexDirection: { xs: "column-reverse", sm: "column-reverse", md: "column-reverse", lg: "row", xl: "row" },
-        }}>
+        flexDirection: { xxs: 'column-reverse', xs: 'row-reverse', sm: 'row-reverse', md: 'row-reverse', lg: 'row', xl: 'row' },
+        justifyContent: { xxs: 'space-evenly', xs: 'space-evenly', sm: 'space-evenly', md: 'space-evenly', lg: 'space-evenly', xl: 'space-evenly' },
+      }}>
         <IconContainer sx={{
           flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" },
         }}>
-            <Link href='/'><Icon src="elmwood-park-logo-updated.png" alt="Elmwood Park Community League Icon" /></Link>
-            <SocialIconContainer sx={{
-          flexDirection: { xs: "row", sm: "row", md: "row", lg: "column", xl: "column" },
-          padding: { xs: "2rem 0 0 0", sm: "2rem 0 0 0", md: "2rem 0 0 0", lg: "inherit", xl: "inherit" }
-        }}>
-                <FacebookRoundedIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }} />
-                <CopyrightIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }} />
-                <PolicyIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }} />
-            </SocialIconContainer>
+          <Link href='/'><Icon src="elmwood-park-logo-updated.png" alt="Elmwood Park Community League Icon" /></Link>
+          <SocialIconContainer sx={{
+            flexDirection: { xs: "row", sm: "row", md: "row", lg: "column", xl: "column" },
+            padding: { xs: "2rem 0 0 0", sm: "2rem 0 0 0", md: "2rem 0 0 0", lg: "inherit", xl: "inherit" }
+          }}>
+            <FacebookRoundedIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }} />
+            <CopyrightIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }} />
+            <PolicyIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }} />
+          </SocialIconContainer>
         </IconContainer>
         <FooterLinkFlex sx={{
           flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" },
         }}>
-                <LinkContainer sx={{
-          flexDirection: { xs: "column", sm: "column", md: "column", lg: "column", xl: "row" },
-        }}>
-                    <Link href='/' color="inherit" disableRipple sx={{
-                        ':hover, :active, :focus': {
-                        bgcolor: 'secondary.main',
-                        color: '#ffffff',
-                        borderRadius: '5rem'
-                        },
-                    }}>Home</Link>
-                    <Link href='/about_us' color="inherit" disableRipple sx={{
-                        ':hover, :active, :focus': {
-                        bgcolor: 'secondary.main',
-                        color: '#ffffff',
-                        borderRadius: '5rem',
-                        },
-                    }}>About Us</Link>
-                </LinkContainer>
-                <LinkContainer sx={{
-          flexDirection: { xs: "column", sm: "column", md: "column", lg: "column", xl: "row" },
-        }}>
-                  <Link href='/membership' color="inherit" disableRipple sx={{
-                      ':hover, :active, :focus': {
-                      bgcolor: 'secondary.main',
-                      color: '#ffffff',
-                      borderRadius: '5rem',
-                      },
-                  }}>Membership</Link>
-                  <Link href='/amenities' color="inherit" disableRipple sx={{
-                      ':hover, :active, :focus': {
-                      bgcolor: 'secondary.main',
-                      color: '#ffffff',
-                      borderRadius: '5rem',
-                      },
-                  }}>Amenities</Link>
-                </LinkContainer>
-                <LinkContainer sx={{
-          flexDirection: { xs: "column", sm: "column", md: "column", lg: "column", xl: "row" },
-        }}>
-                  <Link href='events' color="inherit" disableRipple sx={{
-                      ':hover, :active, :focus': {
-                      bgcolor: 'secondary.main',
-                      color: '#ffffff',
-                      borderRadius: '5rem',
-                      },
-                  }}>Events</Link>
-                  <Link href='contact_us' color="inherit" disableRipple sx={{
-                      ':hover, :active, :focus': {
-                      bgcolor: 'secondary.main',
-                      color: '#ffffff',
-                      borderRadius: '5rem',
-                      },
-                  }}>Contact Us</Link>
-                </LinkContainer>
-          </FooterLinkFlex>
+          <LinkContainer sx={{
+            flexDirection: { xs: "column", sm: "column", md: "column", lg: "column", xl: "row" },
+          }}>
+            <Link href='/' color="inherit" disableRipple sx={{
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem'
+              },
+            }}>Home</Link>
+            <Link href='/about_us' color="inherit" disableRipple sx={{
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}>About Us</Link>
+          </LinkContainer>
+          <LinkContainer sx={{
+            flexDirection: { xs: "column", sm: "column", md: "column", lg: "column", xl: "row" },
+          }}>
+            <Link href='/membership' color="inherit" disableRipple sx={{
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}>Membership</Link>
+            <Link href='/amenities' color="inherit" disableRipple sx={{
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}>Amenities</Link>
+          </LinkContainer>
+          <LinkContainer sx={{
+            flexDirection: { xs: "column", sm: "column", md: "column", lg: "column", xl: "row" },
+          }}>
+            <Link href='events' color="inherit" disableRipple sx={{
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}>Events</Link>
+            <Link href='contact_us' color="inherit" disableRipple sx={{
+              ':hover, :active, :focus': {
+                bgcolor: 'secondary.main',
+                color: '#ffffff',
+                borderRadius: '5rem',
+              },
+            }}>Contact Us</Link>
+          </LinkContainer>
+        </FooterLinkFlex>
         <ContactContainer sx={{
           display: { xs: "none", sm: "none", md: "none", lg: "inherit", xl: "inherit" },
         }}>
-                    <Typography color="inherit">12505 75 Street NW, Edmonton, AB </Typography>
-                    <Typography color="inherit">T5B 1C8</Typography>
-                    <Typography color="inherit">(780)-479-1035</Typography>
+          <Typography color="inherit">12505 75 Street NW, Edmonton, AB </Typography>
+          <Typography color="inherit">T5B 1C8</Typography>
+          <Typography color="inherit">(780)-479-1035</Typography>
         </ContactContainer>
       </FooterContainer>
     </AppBar>
