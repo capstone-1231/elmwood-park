@@ -156,7 +156,7 @@ const ContactForm = () => {
               }
             }}
         />
-        <Button type="submit" variant="contained" color="primary" sx={{ 
+        <Button type="submit" variant="contained" color="primary" disableRipple sx={{ 
         width: '8rem',
         borderRadius: '0.8rem',
         ':hover, :active, :focus': {
