@@ -19,7 +19,6 @@ export default function Page() {
       <Navbar />
       </header>
       <main>
-      {/* <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Welcome to Elmwood Park</Typography> */}
       <HeroBanner />
       </main>
       <footer>
