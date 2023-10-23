@@ -11,8 +11,8 @@ export default function PersonalizedCard() {
     const theme = useTheme();
 
     return (
-    <Container sx={{ display: 'flex', padding: '1rem', gap:'1rem', justifyContent:'space-evenly' }} >
-        <Card sx={{ display: 'flex' }}>
+    <Container sx={{ display: {xs: "column", sm: "row", md: "flex", lg: "flex", xl: "flex"}, padding: '1rem', gap:'1rem', justifyContent:'space-evenly' }} >
+        <Card sx={{ display: 'flex', width: '30%'}}>
             <Box>
                 <CardMedia
                     component="img"
@@ -26,12 +26,14 @@ export default function PersonalizedCard() {
                     Morgan Wolf
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary" component="div" marginTop="1rem">
-                    "WE LOVE ELMWOOD!
+                    aaaaaaaaaa
+                    aaaaaaa
+                    aaaaaaaaa
                 </Typography>
             </CardContent>
         </Card>
 
-        <Card sx={{ display: 'flex' }}>
+        <Card sx={{ display: 'flex', width: '30%' }}>
             <Box>
                 <CardMedia
                     component="img"
@@ -45,12 +47,12 @@ export default function PersonalizedCard() {
                     Morgan Wolf
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary" component="div" marginTop="1rem">
-                    "Elmwood Park Community League is family."
+                    
                 </Typography>
             </CardContent>
         </Card>
 
-        <Card sx={{ display: 'flex' }}>
+        <Card sx={{ display: 'flex', width: '30%' }}>
             <Box>
                 <CardMedia
                     component="img"
@@ -64,7 +66,7 @@ export default function PersonalizedCard() {
                     Morgan Wolf
                 </Typography>
                 <Typography variant="subtitle1" color="text.secondary" component="div" marginTop="1rem">
-                    "I am honoured to be apart of elmwoods community board."
+                    
                 </Typography>
             </CardContent>
         </Card>
