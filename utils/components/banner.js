@@ -78,7 +78,7 @@ const HeroBanner = () => {
             minHeight: '50vh',
             position: 'absolute',
             top: '8.2rem',
-            bottom: '20rem'
+
           }}>
             <ContentContainer sx={{
               maxHeight: '45vh'
