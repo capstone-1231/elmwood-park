@@ -21,9 +21,8 @@ export default function Page() {
       </header>
       <main>
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >About Us</Typography>
-      <change>
         <PersonalizedCard />
-      </change>
+        <PersonalizedCard />
       </main>
       <footer>
         <FooterNav />

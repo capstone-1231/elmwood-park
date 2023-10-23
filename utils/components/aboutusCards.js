@@ -16,7 +16,7 @@ export default function PersonalizedCard() {
             <Box>
                 <CardMedia
                     component="img"
-                    sx={{ width: 180 }}
+                    sx={{ width: 150, height: 180 }}
                     image="claire.jpg"
                     alt="Photograph of Morgan"
                 />
@@ -25,7 +25,7 @@ export default function PersonalizedCard() {
                 <Typography component="div" variant="h5">
                     Morgan Wolf
                 </Typography>
-                <Typography variant="subtitle1" color="text.secondary" component="div" marginTop="1rem">
+                <Typography variant="subtitle1" color="text.secondary" component="div" marginTop="0.5px">
                     aaaaaaaaaa
                     aaaaaaa
                     aaaaaaaaa
@@ -37,7 +37,7 @@ export default function PersonalizedCard() {
             <Box>
                 <CardMedia
                     component="img"
-                    sx={{ width: 180 }}
+                    sx={{ width: 150, height: 180 }}
                     image="claire.jpg"
                     alt="Photograph of Morgan"
                 />
@@ -46,7 +46,7 @@ export default function PersonalizedCard() {
                 <Typography component="div" variant="h5">
                     Morgan Wolf
                 </Typography>
-                <Typography variant="subtitle1" color="text.secondary" component="div" marginTop="1rem">
+                <Typography variant="subtitle1" color="text.secondary" component="div" marginTop="0.5rem">
                     
                 </Typography>
             </CardContent>
@@ -56,7 +56,7 @@ export default function PersonalizedCard() {
             <Box>
                 <CardMedia
                     component="img"
-                    sx={{ width: 180 }}
+                    sx={{ width: 150, height: 180 }}
                     image="claire.jpg"
                     alt="Photograph of Morgan"
                 />
@@ -65,7 +65,7 @@ export default function PersonalizedCard() {
                 <Typography component="div" variant="h5">
                     Morgan Wolf
                 </Typography>
-                <Typography variant="subtitle1" color="text.secondary" component="div" marginTop="1rem">
+                <Typography variant="subtitle1" color="text.secondary" component="div" marginTop="0.5px">
                     
                 </Typography>
             </CardContent>
