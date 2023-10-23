@@ -5,8 +5,7 @@ import FooterNav from '@/utils/components/footer';
 
 import Typography from '@mui/material/Typography';
 
-import PersonalizedCard from '@/utils/components/aboutusCards';
-import ActionAreaCard from '@/utils/components/aboutusCardss';
+import ActionAreaCard from '@/utils/components/aboutusCards';
 import Container from '@mui/material/Container';
 
 
@@ -23,8 +22,6 @@ export default function Page() {
       </header>
       <main>
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >About Us</Typography>
-        <PersonalizedCard />
-        <PersonalizedCard />
       <Container sx={{ display:'flex', padding:'1rem'}}>
         <ActionAreaCard/> <ActionAreaCard/> <ActionAreaCard/>
       </Container>
