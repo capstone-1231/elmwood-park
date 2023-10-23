@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 
 import PersonalizedCard from '@/utils/components/aboutusCards';
 
+
 export default function Page() {
   return (
     <div>
@@ -20,7 +21,9 @@ export default function Page() {
       </header>
       <main>
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >About Us</Typography>
-      <PersonalizedCard></PersonalizedCard>
+      <change>
+        <PersonalizedCard />
+      </change>
       </main>
       <footer>
         <FooterNav />
