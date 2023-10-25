@@ -6,6 +6,7 @@ import FooterNav from '@/utils/components/footer';
 import Typography from '@mui/material/Typography';
 
 import HomeCard from '@/utils/components/homeCards';
+import CardCarousel from '@/utils/components/cardCarousel';
 
 export default function Page() {
   return (
@@ -22,6 +23,7 @@ export default function Page() {
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Amenities</Typography>
       <Typography variant='h2' sx={{ width: '100%', padding: '1rem' }}>What's New</Typography>
       <HomeCard/>
+      <CardCarousel/>
       </main>
       <footer>
         <FooterNav />

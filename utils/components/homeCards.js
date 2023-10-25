@@ -12,7 +12,12 @@ import { Padding } from '@mui/icons-material';
 export default function homeCards() {
     const theme = useTheme();
     return (
-        <Container sx={{ display: 'flex', flexWrap: 'wrap', padding: '1rem', justifyContent: 'space-evenly' }}>
+        <Container sx={{
+        flexWrap: 'wrap', 
+        padding: '1rem', 
+        justifyContent: 'space-evenly', 
+        display: { xs: "none", sm: "none", md: "none", lg: "flex", xl: "flex" } 
+        }}>
             <Card sx={{ display: 'flex', width: '20%' }}>
                 <Box>
                     <CardContent sx={{ padding: '1rem' }}>
@@ -22,7 +27,7 @@ export default function homeCards() {
                         <Typography>Take a look at articles that feature Elmwood Park.</Typography>
                     </CardContent>
                     <CardActions sx={{ padding: '1rem' }}>
-                        <Button variant='contained' size='small' color="primary" disableRipple sx={{
+                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
                             borderRadius: '0.8rem',
                             ':hover, :active, :focus': {
                                 bgcolor: 'secondary.main',
@@ -41,7 +46,7 @@ export default function homeCards() {
                         <Typography>Explore Opportunities at Elmwood Park.</Typography>
                     </CardContent>
                     <CardActions sx={{ padding: '1rem' }}>
-                        <Button variant='contained' size='small' color="primary" disableRipple sx={{
+                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
                             borderRadius: '0.8rem',
                             ':hover, :active, :focus': {
                                 bgcolor: 'secondary.main',
