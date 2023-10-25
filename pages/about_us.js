@@ -25,6 +25,9 @@ export default function Page() {
       <Container sx={{ display:'flex', padding:'1rem'}}>
         <ActionAreaCard/> <ActionAreaCard/> <ActionAreaCard/>
       </Container>
+      <Container sx={{ display:'flex', padding:'1rem'}}>
+        <ActionAreaCard/> <ActionAreaCard/> <ActionAreaCard/>
+      </Container>
       </main>
       <footer>
         <FooterNav />
