@@ -20,7 +20,7 @@ export default function CardCarousel() {
             minHeight: '12vh',
             display: { xs: "flex", sm: "flex", md: "flex", lg: "none", xl: "none" }
         }}>
-            <Carousel sx={{ width: '80%' }}>
+            <Carousel sx={{ width: '100%' }}>
                 <Card sx={{ width: '100%', display: 'flex', alignItems: 'center', height: '15rem' }}>
                     <Box>
                         <CardContent sx={{ padding: '1rem' }}>
