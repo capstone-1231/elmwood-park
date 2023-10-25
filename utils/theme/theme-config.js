@@ -82,8 +82,8 @@ export const themeOptions = {
       values: {
         xs: 0,
         sm: 300,
-        md: 768,
-        lg: 1085,
+        md: 850,
+        lg: 1087,
         xl: 1536,
       },
     },
