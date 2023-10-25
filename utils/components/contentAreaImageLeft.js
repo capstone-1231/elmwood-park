@@ -7,7 +7,6 @@ import Container from '@mui/material/Container';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Button from '@mui/material/Button';
 
-// Define a styled component for the container
 const StyledContainer = styled(Container)({
   display: 'flex',
   padding: '7.625rem',
@@ -19,25 +18,22 @@ const StyledContainer = styled(Container)({
   borderRadius: 'none',
 });
 
-// Define a styled component for the image container
 const StyledImageContainer = styled('div')({
-  flex: 1, // Make the image container occupy 50% of the available space
+  flex: 1,
   display: 'flex',
-  justifyContent: 'center', // Center the image horizontally
+  justifyContent: 'center',
 });
 
-// Define a styled component for the image
 const StyledImage = styled('img')({
   width: '100%',
 });
 
-// Define a styled component for the read more button
 const ReadMoreButton = styled(Button)({
   marginTop: '1rem',
 });
 
 const ContentWithImage = ({ imageSrc, heading, bodyText }) => {
-  const isScreenSizeBelowMd = useMediaQuery('(max-width:850px)'); // Check if the screen size is below "md" breakpoint
+  const isScreenSizeBelowMd = useMediaQuery('(max-width:850px)');
 
   const [showFullText, setShowFullText] = useState(false);
 
