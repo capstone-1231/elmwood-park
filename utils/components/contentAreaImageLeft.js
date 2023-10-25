@@ -1,18 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { styled } from '@mui/system';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Button from '@mui/material/Button';
 
 // Define a styled component for the container
-const StyledContainer = styled(Paper)({
+const StyledContainer = styled(Container)({
   display: 'flex',
-  width: '80%',
+  padding: '7.625rem',
+  justifyContent: 'center',
+  alignContent: 'center',
   margin: '1rem auto',
-  padding: '5rem 1rem',
-  alignItems: 'center',
   backgroundColor: '#FFFFF2',
   boxShadow: 'none',
   borderRadius: 'none',
@@ -20,65 +21,60 @@ const StyledContainer = styled(Paper)({
 
 // Define a styled component for the image container
 const StyledImageContainer = styled('div')({
-  flex: '27.5%', // Make the image take up 25% of the container
-  paddingRight: '2rem', // Add some space between the image and text
+  flex: 1, // Make the image container occupy 50% of the available space
   display: 'flex',
   justifyContent: 'center', // Center the image horizontally
-  minWidth: '25%',
 });
 
 // Define a styled component for the image
 const StyledImage = styled('img')({
-  maxWidth: '100%',
-  maxHeight: '100%',
-  objectFit: 'contain',
+  width: '100%',
 });
 
 // Define a styled component for the read more button
+const ReadMoreButton = styled(Button)({
+  marginTop: '1rem',
+});
 
 const ContentWithImage = ({ imageSrc, heading, bodyText }) => {
-  const isBelow1300px = useMediaQuery('(max-width: 1400px)');
+  const isScreenSizeBelowMd = useMediaQuery('(max-width:850px)'); // Check if the screen size is below "md" breakpoint
 
-  const maxTextLength = 300; // Maximum visible characters
+  const [showFullText, setShowFullText] = useState(false);
 
-  let truncatedText = bodyText.slice(0, maxTextLength);
-  if (bodyText.length > maxTextLength) {
-    truncatedText = truncatedText.slice(0, -3) + '...';
-  }
+  const toggleFullText = () => {
+    setShowFullText(!showFullText);
+  };
 
   return (
-    <StyledContainer>
-      <StyledImageContainer>
+    <StyledContainer sx={{ 
+      flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" }
+    }}>
+      <StyledImageContainer sx={{
+        paddingRight: { xs: "0", sm: "0", md: "0", lg: "1rem", xl: "1rem" },
+      }}>
         <StyledImage src={imageSrc} alt="Content Image" />
       </StyledImageContainer>
-      <Box sx={{ flex: 2 }}>
+      <Box sx={{ 
+        flex: 1,
+        padding: { xs: "2rem 0", sm: "2rem 0", md: "2rem 0", lg: "0 1rem", xl: "0 1rem" }
+      }}>
         <Typography variant="h2" component="h2" gutterBottom>
           {heading}
         </Typography>
         <Typography variant="body1" color="textSecondary">
-          {isBelow1300px ? (
-            <>
-              {truncatedText}
-              <br />
-              <Button
-                type="submit"
-                variant="contained"
-                color="primary"
-                sx={{
-                  width: '8rem',
-                  margin: '1rem 0',
-                  borderRadius: '0.8rem',
-                  ':hover, :active, :focus': {
-                    bgcolor: 'secondary.main',
-                    color: '#ffffff',
-                  },
-                }}
-              >
-                Read More
-              </Button>
-            </>
-          ) : (
-            bodyText
+          {showFullText || !isScreenSizeBelowMd ? bodyText : `${bodyText.slice(0, 400)}...`}
+          {isScreenSizeBelowMd && (
+            <Box display="block">
+              <ReadMoreButton variant="contained" color="primary" sx={{
+                ':hover, :active, :focus': {
+                  bgcolor: 'secondary.main',
+                  color: '#ffffff',
+                  borderRadius: '5rem',
+                },
+              }} onClick={toggleFullText}>
+                {showFullText ? 'Read Less' : 'Read More'}
+              </ReadMoreButton>
+            </Box>
           )}
         </Typography>
       </Box>
