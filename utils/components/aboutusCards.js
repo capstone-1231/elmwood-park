@@ -18,7 +18,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row" }}>
+            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
