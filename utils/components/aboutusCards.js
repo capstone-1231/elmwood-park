@@ -9,25 +9,34 @@ import Container from '@mui/material/Container';
 export default function ActionAreaCard() {
   return (
     <Container>
-        <Card sx={{ maxWidth: 345 }}>
+      <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
-            <CardMedia
+          <CardMedia
             component="img"
             height="140"
             image="claire.jpg"
             alt="green iguana"
-            />
-            <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-                Lizard
+          />
+          <CardContent>
+            <div style={{display: "flex", flexDirection: "row" }}>
+              <div>
+                <Typography gutterBottom variant="h4" component="div">
+                  Morgan Wolf
+                </Typography>
+                <Typography gutterBottom variant="h5" component="div">
+                  President
+                </Typography>
+              </div>
+              <div>
+                <img src="TheLine.png" alt="" width="20" height="55"></img>
+              </div>
+            </div>
+            <Typography variant="body2" color="text.secondary" align="center">
+              "Elmwood Park Community League is more than just a community. It is a family."
             </Typography>
-            <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over 6,000
-                species, ranging across all continents except Antarctica
-            </Typography>
-            </CardContent>
+          </CardContent>
         </CardActionArea>
-        </Card>
+      </Card>
     </Container>
   );
 }
