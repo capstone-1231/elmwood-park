@@ -6,11 +6,11 @@ import Button from '@mui/material/Button';
 import { styled } from '@mui/system';
 
 const ContentContainer = styled('div')({
-  padding: '5rem 0',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
+  minHeight: '100%'
 });
 
 const DesktopDisplayContainer = styled('div')()
@@ -81,8 +81,16 @@ const HeroBanner = () => {
 
           }}>
             <ContentContainer sx={{
-              maxHeight: '45vh'
-            }}>
+                padding: '1.2rem',
+                width: '100%',
+                textAlign: 'center',
+                position: 'relative',
+                top: '21rem',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}>
               <Typography variant='h2' color="text.primary">
                 Elmwood Park Community League
               </Typography>
