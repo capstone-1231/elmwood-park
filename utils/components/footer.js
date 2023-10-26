@@ -54,6 +54,7 @@ const LinkContainer = styled('div')({
 const Link = styled(Button)({
   margin: '0 1rem',
   padding: '0.5rem 1rem',
+  fontFamily: 'Be Vietnam Pro'
 });
 
 const Icon = styled('img')({
