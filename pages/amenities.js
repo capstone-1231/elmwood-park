@@ -21,7 +21,6 @@ export default function Page() {
       </header>
       <main>
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Amenities</Typography>
-      <Typography variant='h2' sx={{ width: '100%', padding: '1rem' }}>What's New</Typography>
       </main>
       <footer>
         <FooterNav />
