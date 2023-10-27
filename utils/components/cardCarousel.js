@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Carousel from 'react-material-ui-carousel';
 
-import { useTheme } from '@mui/system'; // Use `@mui/system` for the `useTheme` hook
+import { useTheme } from '@mui/system';
 import { Padding } from '@mui/icons-material';
 
 export default function CardCarousel() {
