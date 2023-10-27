@@ -9,7 +9,7 @@ import Button from '@mui/material/Button';
 
 const StyledContainer = styled(Container)({
   display: 'flex',
-  padding: '7.625rem',
+  padding: '4rem',
   justifyContent: 'center',
   alignContent: 'center',
   margin: '1rem auto',
