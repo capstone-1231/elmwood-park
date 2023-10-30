@@ -11,9 +11,10 @@ export default function MobileCards() {
     <Container sx={{
       flexWrap: "wrap",
       justifyContent: "space-evenly",
-      display: { xs: "column", sm: "column", md: "column", lg: "none", xl: "none" }
+      alignItems: "center",
+      display: { xs: "column", sm: "column", md: "flex", lg: "none", xl: "none" }
     }}>
-      <Card sx={{ maxWidth: "100%", width: "33.3%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -38,7 +39,7 @@ export default function MobileCards() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "33.3%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -63,7 +64,7 @@ export default function MobileCards() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "33.3%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%" }}>
         <CardActionArea>
           <CardMedia
             component="img"

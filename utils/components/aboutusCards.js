@@ -12,7 +12,7 @@ export default function ActionAreaCard() {
       justifyContent: "space-evenly",
       display: { xs: "none", sm: "none", md: "none", lg: "flex", xl: "flex" }
     }}>
-      <Card sx={{ maxWidth: "100%", width: "33.3%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -37,7 +37,7 @@ export default function ActionAreaCard() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "33.3%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -62,7 +62,7 @@ export default function ActionAreaCard() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "33.3%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%" }}>
         <CardActionArea>
           <CardMedia
             component="img"
