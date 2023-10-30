@@ -18,6 +18,9 @@ const MobileNavbarContainer = styled('div')({
   justifyContent: 'space-between',
   alignItems: 'center',
   padding: '1rem',
+  '& .menu-icon': {
+    transition: 'transform 0.3s ease',
+  },
 });
 
 const LinkContainer = styled('div')({
@@ -123,10 +126,12 @@ const Navbar = () => {
         <Link href='/'><Icon src="elmwood-park-logo-updated.png" alt="Elmwood Park Community League Icon" /></Link>
         <IconButton
           onClick={toggleMobileMenu}
-          color="inherit" >
-
+          color="inherit"
+          sx={{ transition: 'transform 0.3s ease', transform: showMobileMenu ? 'rotate(90deg)' : 'rotate(0)' }}
+          className={showMobileMenu ? 'menu-icon' : ''}>
           {showMobileMenu ? <CloseIcon sx={{ fontSize: 50 }} /> : <MenuIcon sx={{ fontSize: 50 }} />}
         </IconButton>
+
         {showMobileMenu && (
           <MobileMenu>
             <Link href='/' color="inherit" sx={{
