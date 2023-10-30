@@ -6,11 +6,12 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import Container from '@mui/material/Container';
 
-export default function ActionAreaCard() {
+export default function MobileCards() {
   return (
     <Container sx={{
+      flexWrap: "wrap",
       justifyContent: "space-evenly",
-      display: { xs: "none", sm: "none", md: "none", lg: "flex", xl: "flex" }
+      display: { xs: "column", sm: "column", md: "column", lg: "none", xl: "none" }
     }}>
       <Card sx={{ maxWidth: "100%", width: "33.3%" }}>
         <CardActionArea>
@@ -21,7 +22,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
@@ -46,7 +47,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
@@ -71,7 +72,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
