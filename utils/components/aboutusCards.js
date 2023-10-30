@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 
 export default function ActionAreaCard() {
   return (
-    <Container>
+    <Container sx={{ flexWrap: {xs:"wrap", sm:"wrap", md:"nowrap", lg:"nowrap", xl:"nowrap"} }}>
       <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
           <CardMedia
