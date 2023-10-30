@@ -23,16 +23,13 @@ export default function ActionAreaCard() {
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
                 </Typography>
-                <Typography gutterBottom variant="h5" component="div">
-                  President
-                </Typography>
               </div>
               <div>
                 <img src="TheLine.png" alt="" width="20" height="55"></img>
               </div>
             </div>
-            <Typography variant="body2" color="text.secondary" align="center">
-              "Elmwood Park Community League is more than just a community. It is a family."
+            <Typography variant="h5" color="text.secondary" align="center">
+              President
             </Typography>
           </CardContent>
         </CardActionArea>

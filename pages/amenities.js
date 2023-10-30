@@ -5,9 +5,6 @@ import FooterNav from '@/utils/components/footer';
 
 import Typography from '@mui/material/Typography';
 
-import HomeCard from '@/utils/components/homeCards';
-import CardCarousel from '@/utils/components/cardCarousel';
-
 export default function Page() {
   return (
     <div>
