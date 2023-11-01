@@ -12,6 +12,7 @@ export default function MobileCards() {
       flexWrap: "wrap",
       justifyContent: "space-evenly",
       alignItems: "center",
+      gap: "16px",
       display: { xs: "column", sm: "column", md: "none", lg: "none", xl: "none" }
     }}>
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
@@ -64,6 +65,108 @@ export default function MobileCards() {
           </CardContent>
         </CardActionArea>
       </Card>
+      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            height="140"
+            image="claire.jpg"
+            alt="green iguana"
+          />
+          <CardContent>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+              <div>
+                <Typography gutterBottom variant="h4" component="div">
+                  Morgan Wolf
+                </Typography>
+              </div>
+              <div>
+                <img src="TheLine.png" alt="" width="20" height="55"></img>
+              </div>
+            </div>
+            <Typography variant="h5" color="text.secondary" align="center">
+              President
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+      {/* 2nd set of Cards */}
+      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            height="140"
+            image="claire.jpg"
+            alt="green iguana"
+          />
+          <CardContent>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+              <div>
+                <Typography gutterBottom variant="h4" component="div">
+                  Morgan Wolf
+                </Typography>
+              </div>
+              <div>
+                <img src="TheLine.png" alt="" width="20" height="55"></img>
+              </div>
+            </div>
+            <Typography variant="h5" color="text.secondary" align="center">
+              President
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            height="140"
+            image="claire.jpg"
+            alt="green iguana"
+          />
+          <CardContent>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+              <div>
+                <Typography gutterBottom variant="h4" component="div">
+                  Morgan Wolf
+                </Typography>
+              </div>
+              <div>
+                <img src="TheLine.png" alt="" width="20" height="55"></img>
+              </div>
+            </div>
+            <Typography variant="h5" color="text.secondary" align="center">
+              President
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            height="140"
+            image="claire.jpg"
+            alt="green iguana"
+          />
+          <CardContent>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+              <div>
+                <Typography gutterBottom variant="h4" component="div">
+                  Morgan Wolf
+                </Typography>
+              </div>
+              <div>
+                <img src="TheLine.png" alt="" width="20" height="55"></img>
+              </div>
+            </div>
+            <Typography variant="h5" color="text.secondary" align="center">
+              President
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+      {/* 3nd set of final card */}
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
         <CardActionArea>
           <CardMedia

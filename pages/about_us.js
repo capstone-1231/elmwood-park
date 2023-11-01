@@ -25,7 +25,6 @@ export default function Page() {
         <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >About Us</Typography>
           <ActionAreaCard />
           <MobileCards></MobileCards>
-          <MobileCards></MobileCards>
       </main>
       <footer>
         <FooterNav />

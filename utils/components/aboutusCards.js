@@ -11,7 +11,7 @@ export default function ActionAreaCard() {
     <Container sx={{
       justifyContent: "space-evenly",
       flexWrap: "wrap",
-      gap: "24px",
+      gap: "16px",
       display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex" }
     }}>
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
