@@ -12,7 +12,7 @@ export default function MobileCards() {
       flexWrap: "wrap",
       justifyContent: "space-evenly",
       alignItems: "center",
-      display: { xs: "column", sm: "column", md: "flex", lg: "none", xl: "none" }
+      display: { xs: "column", sm: "column", md: "none", lg: "none", xl: "none" }
     }}>
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
         <CardActionArea>
