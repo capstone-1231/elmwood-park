@@ -89,7 +89,7 @@ export default function ActionAreaCard() {
           </CardContent>
         </CardActionArea>
       </Card>
-      
+      {/* 2nd set of Cards */}
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
         <CardActionArea>
           <CardMedia
@@ -165,7 +165,7 @@ export default function ActionAreaCard() {
           </CardContent>
         </CardActionArea>
       </Card>
-
+      {/* 3nd set of final card */}
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
         <CardActionArea>
           <CardMedia
