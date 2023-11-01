@@ -9,13 +9,13 @@ import Container from '@mui/material/Container';
 export default function MobileCards() {
   return (
     <Container sx={{
+      width: "70%",
       flexWrap: "wrap",
-      justifyContent: "space-evenly",
+      justifyContent: "space-around",
       alignItems: "center",
-      gap: "16px",
       display: { xs: "column", sm: "column", md: "none", lg: "none", xl: "none" }
     }}>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -40,7 +40,7 @@ export default function MobileCards() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -65,7 +65,7 @@ export default function MobileCards() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -91,7 +91,7 @@ export default function MobileCards() {
         </CardActionArea>
       </Card>
       {/* 2nd set of Cards */}
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -116,7 +116,7 @@ export default function MobileCards() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -141,7 +141,7 @@ export default function MobileCards() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -167,7 +167,7 @@ export default function MobileCards() {
         </CardActionArea>
       </Card>
       {/* 3nd set of final card */}
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
