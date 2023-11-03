@@ -2,8 +2,9 @@ import Head from 'next/head';
 
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
-import ImgList from '@/utils/components/imgList'
+import ImgList from '@/utils/components/imgList';
 import Typography from '@mui/material/Typography';
+import MobileImgCarousel from '@/utils/components/mobileImgCarousel';
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Membership</Typography>
 
       <ImgList/>
+      <MobileImgCarousel/>
       </main>
       <footer>
         <FooterNav />
