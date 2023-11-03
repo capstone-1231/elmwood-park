@@ -166,7 +166,7 @@ export default function ActionAreaCard() {
         </CardActionArea>
       </Card>
       {/* 3nd set of final card */}
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%", marginBottom: "1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
