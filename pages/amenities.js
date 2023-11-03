@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Container from '@mui/material/Container';
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
+import RentalForm from '@/utils/components/rentalForm';
 
 import Typography from '@mui/material/Typography';
 
@@ -18,6 +19,7 @@ export default function Page() {
       </header>
       <main>
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Amenities</Typography>
+      <RentalForm />
       </main>
       <footer>
         <FooterNav />

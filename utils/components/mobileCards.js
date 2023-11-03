@@ -6,15 +6,16 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import Container from '@mui/material/Container';
 
-export default function ActionAreaCard() {
+export default function MobileCards() {
   return (
     <Container sx={{
-      justifyContent: "space-evenly",
+      width: "70%",
       flexWrap: "wrap",
-      gap: "16px",
-      display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex" }
+      justifyContent: "space-around",
+      alignItems: "center",
+      display: { xs: "column", sm: "column", md: "none", lg: "none", xl: "none" }
     }}>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -23,7 +24,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
@@ -39,7 +40,7 @@ export default function ActionAreaCard() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -48,7 +49,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
@@ -64,7 +65,7 @@ export default function ActionAreaCard() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -73,7 +74,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
@@ -90,7 +91,7 @@ export default function ActionAreaCard() {
         </CardActionArea>
       </Card>
       {/* 2nd set of Cards */}
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -99,7 +100,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
@@ -115,7 +116,7 @@ export default function ActionAreaCard() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -124,7 +125,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
@@ -140,7 +141,7 @@ export default function ActionAreaCard() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -149,7 +150,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
@@ -166,7 +167,7 @@ export default function ActionAreaCard() {
         </CardActionArea>
       </Card>
       {/* 3nd set of final card */}
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom:"1.5rem" }}>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -175,7 +176,7 @@ export default function ActionAreaCard() {
             alt="green iguana"
           />
           <CardContent>
-            <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%"}}>
+            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
