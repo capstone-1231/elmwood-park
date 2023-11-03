@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
-
+import ImgList from '@/utils/components/imgList'
 import Typography from '@mui/material/Typography';
 
 export default function Page() {
@@ -18,6 +18,8 @@ export default function Page() {
       </header>
       <main>
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Membership</Typography>
+
+      <ImgList/>
       </main>
       <footer>
         <FooterNav />
