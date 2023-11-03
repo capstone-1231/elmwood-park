@@ -179,6 +179,7 @@ const RentalForm = () => {
             },
           }}
         />
+      
         <InputLabel htmlFor="space-type" sx={{ paddingLeft: '0.5rem' }}>
           Space Type
         </InputLabel>

@@ -92,7 +92,7 @@ const Navbar = () => {
             },
           }}>Membership</Link>
         </LinkContainer>
-        <Link href='/'><Icon sx={{ padding: '0 2rem'}} src="elmwood-park-logo-updated.png" alt="Elmwood Park Community League Icon" /></Link>
+        <Link href='/'><Icon sx={{ padding: '0 0.5rem'}} src="elmwood-park-logo-updated.png" alt="Elmwood Park Community League Icon" /></Link>
         <LinkContainer>
           <Link href='/amenities' color="inherit" disableRipple sx={{
             ':hover, :active, :focus': {

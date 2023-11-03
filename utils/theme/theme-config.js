@@ -20,6 +20,9 @@ export const themeOptions = {
       },
       button: {
         default: '#BFF1AD'
+      },
+      link: {
+        default: '#0C268D'
       }
     },
     typography: {
