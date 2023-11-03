@@ -9,16 +9,17 @@ import Typography from '@mui/material/Typography';
 import { useTheme } from '@emotion/react';
 import { Padding } from '@mui/icons-material';
 
+
 export default function homeCards() {
     const theme = useTheme();
     return (
         <Container sx={{
         flexWrap: 'wrap', 
-        padding: '1rem', 
+        maxWidth: '100%',
         justifyContent: 'space-evenly', 
         display: { xs: "none", sm: "none", md: "none", lg: "flex", xl: "flex" } 
         }}>
-            <Card sx={{ display: 'flex', width: '20%' }}>
+            <Card sx={{ display: 'flex', width: '20%', margin: 'none' }}>
                 <Box>
                     <CardContent sx={{ padding: '1rem' }}>
                         <Typography variant='h3'>RatCreek Press</Typography>
@@ -75,7 +76,7 @@ export default function homeCards() {
                     </CardActions>
                 </Box>
             </Card>
-            <Card sx={{ display: 'flex', width: '20%' }}>
+            <Card sx={{ display: 'flex', width: '20%', padding: '0' }}>
                 <Box>
                     <CardContent sx={{ padding: '1rem' }}>
                         <Typography variant='h3'>Have A Question?</Typography>
