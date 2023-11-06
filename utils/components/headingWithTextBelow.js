@@ -5,7 +5,7 @@ import Container from '@mui/material/Container';
 
 const StyledContainer = styled(Container)({
   display: 'flex',
-  padding: '4rem',
+  // padding: '4rem',
   justifyContent: 'center',
   alignContent: 'center',
 });
