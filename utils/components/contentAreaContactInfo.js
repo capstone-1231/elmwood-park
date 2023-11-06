@@ -9,7 +9,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import Link from '@mui/material/Link';
 
 const StyledContainer = styled(Container)({
-  // padding: '4rem',
   display: 'flex',
   justifyContent: 'center',
   alignContent: 'center'
@@ -24,7 +23,6 @@ const ContactInfo = ({ heading, phone, address, email, facebook }) => {
   return (
     <StyledContainer sx={{ 
       flexDirection: 'column',
-      // paddingTop: { xs: '0', sm: '0', md: '0', lg: '4rem', xl: '4rem' },
     }}>
         <Typography variant="h2" component="h2" gutterBottom>
           {heading}
