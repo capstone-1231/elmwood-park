@@ -35,7 +35,7 @@ export default function MobileCards() {
               </div>
             </div>
             <Typography variant="h5" color="text.secondary" align="center">
-            Community Garden Coordinator
+              Community Garden Coordinator
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -111,7 +111,7 @@ export default function MobileCards() {
               </div>
             </div>
             <Typography variant="h5" color="text.secondary" align="center">
-            Secretary
+              Secretary
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -136,7 +136,7 @@ export default function MobileCards() {
               </div>
             </div>
             <Typography variant="h5" color="text.secondary" align="center">
-            Affiliate Member CONFIRM
+              Affiliate Member CONFIRM
             </Typography>
           </CardContent>
         </CardActionArea>
