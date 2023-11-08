@@ -1,5 +1,6 @@
 import '../styles/global.css';
 import '../styles/AboutUsCardStyles.css';
+import '../styles/homecards.css';
 
 import { ThemeProvider } from '@mui/material';
 import { theme } from '../utils/theme/theme-config.js';
