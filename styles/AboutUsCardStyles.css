@@ -1,32 +1,26 @@
-/* CardStyles.css */
-
-/* Styles for the container */
 .my-container {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 16px;
   }
   
-  /* Media queries for responsive display */
-  @media (max-width: 599px) {
+  @media (max-width: 849px) {
     .my-container {
       display: none;
     }
   }
   
-  @media (min-width: 600px) {
+  @media (min-width: 850px) {
     .my-container {
       display: flex;
     }
   }
   
-  /* Styles for each card */
   .my-card {
     max-width: 100%;
     width: 30%;
   }
   
-  /* Styles for content within the card */
   .my-card-content {
     display: flex;
     flex-direction: row;
@@ -34,18 +28,15 @@
     width: 85%;
   }
   
-  /* Styles for Typography (variant h4) */
   .my-typography-h4 {
     font-size: 12px;
   }
   
-  /* Styles for Typography (variant h5) */
   .my-typography-h5 {
     color: #5C4500; 
     text-align: center;
   }
   
-  /* Styles for additional elements (like the line image) */
   .my-line-image {
     width: 20px;
     height: 55px;

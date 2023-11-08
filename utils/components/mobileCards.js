@@ -8,14 +8,8 @@ import Container from '@mui/material/Container';
 
 export default function MobileCards() {
   return (
-    <Container sx={{
-      width: "70%",
-      flexWrap: "wrap",
-      justifyContent: "space-around",
-      alignItems: "center",
-      display: { xs: "column", sm: "column", md: "none", lg: "none", xl: "none" }
-    }}>
-      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom: "1.5rem" }}>
+    <Container className="mobile-container">
+      <Card className="mobile-card">
         <CardActionArea>
           <CardMedia
             component="img"
@@ -24,7 +18,7 @@ export default function MobileCards() {
             alt="Audrey Lynn"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className="mobile-card-content">
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Audrey Lynn
@@ -34,13 +28,13 @@ export default function MobileCards() {
                 <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="mobile-typography-h5">
               Community Garden Coordinator
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom: "1.5rem" }}>
+      <Card className="mobile-card">
         <CardActionArea>
           <CardMedia
             component="img"
@@ -49,7 +43,7 @@ export default function MobileCards() {
             alt="Lisa Baldwin"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className="mobile-card-content">
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Lisa Baldwin
@@ -59,13 +53,13 @@ export default function MobileCards() {
                 <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="mobile-typography-h5">
               Vice President
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom: "1.5rem" }}>
+      <Card className="mobile-card">
         <CardActionArea>
           <CardMedia
             component="img"
@@ -74,7 +68,7 @@ export default function MobileCards() {
             alt="Judy Dahl"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className="mobile-card-content">
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Judy Dahl
@@ -84,14 +78,14 @@ export default function MobileCards() {
                 <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="mobile-typography-h5">
               Treasurer
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
       {/* 2nd set of Cards */}
-      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom: "1.5rem" }}>
+      <Card className="mobile-card">
         <CardActionArea>
           <CardMedia
             component="img"
@@ -100,7 +94,7 @@ export default function MobileCards() {
             alt="Mary Duguay"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className="mobile-card-content">
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Mary Duguay
@@ -110,13 +104,13 @@ export default function MobileCards() {
                 <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="mobile-typography-h5">
               Secretary
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom: "1.5rem" }}>
+      <Card className="mobile-card">
         <CardActionArea>
           <CardMedia
             component="img"
@@ -125,7 +119,7 @@ export default function MobileCards() {
             alt="Danielle Duguay"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className="mobile-card-content">
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Danielle Duguay
@@ -135,13 +129,13 @@ export default function MobileCards() {
                 <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="mobile-typography-h5">
               Crafts Coordinator
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom: "1.5rem" }}>
+      <Card className="mobile-card">
         <CardActionArea>
           <CardMedia
             component="img"
@@ -150,7 +144,7 @@ export default function MobileCards() {
             alt="Ron Duguay"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className="mobile-card-content">
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Ron Duguay
@@ -160,14 +154,14 @@ export default function MobileCards() {
                 <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="mobile-typography-h5">
               Maintenance
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
       {/* 3nd set of final card */}
-      <Card sx={{ maxWidth: "100%", width: "100%", marginBottom: "1.5rem" }}>
+      <Card className="mobile-card">
         <CardActionArea>
           <CardMedia
             component="img"
@@ -176,7 +170,7 @@ export default function MobileCards() {
             alt="Morgan Wolf"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className="mobile-card-content">
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
@@ -186,7 +180,7 @@ export default function MobileCards() {
                 <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="mobile-typography-h5">
               President
             </Typography>
           </CardContent>
