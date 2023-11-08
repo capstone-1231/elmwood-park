@@ -8,13 +8,8 @@ import Container from '@mui/material/Container';
 
 export default function ActionAreaCard() {
   return (
-    <Container sx={{
-      justifyContent: "space-evenly",
-      flexWrap: "wrap",
-      gap: "16px",
-      display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex" }
-    }}>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+    <Container className='my-container'>
+      <Card className='my-card'>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -23,23 +18,23 @@ export default function ActionAreaCard() {
             alt="Audrey Lynn"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className='my-card-content'>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Audrey Lynn
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" className="my-line-image"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="my-typography-h5">
               Community Garden Coordinator
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card className='my-card'>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -48,23 +43,23 @@ export default function ActionAreaCard() {
             alt="Lisa Baldwin"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className='my-card-content'>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Lisa Baldwin
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" className="my-line-image"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="my-typography-h5">
               Vice President
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card className='my-card'>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -73,24 +68,24 @@ export default function ActionAreaCard() {
             alt="Judy Dahl"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className='my-card-content'>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Judy Dahl
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" className="my-line-image"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
-              FIND OUT
+            <Typography variant="h5" className="my-typography-h5">
+              Treasurer
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
       {/* 2nd set of Cards */}
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card className='my-card'>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -99,23 +94,23 @@ export default function ActionAreaCard() {
             alt="Mary Duguay"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className='my-card-content'>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Mary Duguay
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" className="my-line-image"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="my-typography-h5">
               Secretary
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card className='my-card'>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -124,23 +119,23 @@ export default function ActionAreaCard() {
             alt="Danielle Duguay"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className='my-card-content'>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Danielle Duguay
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" className="my-line-image"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
-            Affiliate Member CONFIRM
+            <Typography variant="h5" className="my-typography-h5">
+            Crafts Coordinator
             </Typography>
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card className='my-card'>
         <CardActionArea>
           <CardMedia
             component="img"
@@ -149,18 +144,18 @@ export default function ActionAreaCard() {
             alt="Ron Duguay"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className='my-card-content'>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Ron Duguay
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" className="my-line-image"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
-              FIND OUT
+            <Typography variant="h5" className="my-typography-h5">
+              Maintenance
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -175,17 +170,17 @@ export default function ActionAreaCard() {
             alt="Morgan Wolf"
           />
           <CardContent>
-            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", width: "85%" }}>
+            <div className='my-card-content'>
               <div>
                 <Typography gutterBottom variant="h4" component="div">
                   Morgan Wolf
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" className="my-line-image"></img>
               </div>
             </div>
-            <Typography variant="h5" color="text.secondary" align="center">
+            <Typography variant="h5" className="my-typography-h5">
               President
             </Typography>
           </CardContent>

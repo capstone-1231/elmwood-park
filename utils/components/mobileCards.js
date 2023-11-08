@@ -31,7 +31,7 @@ export default function MobileCards() {
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
             <Typography variant="h5" color="text.secondary" align="center">
@@ -56,7 +56,7 @@ export default function MobileCards() {
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
             <Typography variant="h5" color="text.secondary" align="center">
@@ -81,11 +81,11 @@ export default function MobileCards() {
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
             <Typography variant="h5" color="text.secondary" align="center">
-              FIND OUT
+              Treasurer
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -107,7 +107,7 @@ export default function MobileCards() {
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
             <Typography variant="h5" color="text.secondary" align="center">
@@ -132,11 +132,11 @@ export default function MobileCards() {
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
             <Typography variant="h5" color="text.secondary" align="center">
-              Affiliate Member CONFIRM
+              Crafts Coordinator
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -157,11 +157,11 @@ export default function MobileCards() {
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
             <Typography variant="h5" color="text.secondary" align="center">
-              FIND OUT
+              Maintenance
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -183,7 +183,7 @@ export default function MobileCards() {
                 </Typography>
               </div>
               <div>
-                <img src="TheLine.png" alt="" width="20" height="55"></img>
+                <img src="TheLine.png" alt="Line Picture" width="20" height="55"></img>
               </div>
             </div>
             <Typography variant="h5" color="text.secondary" align="center">
