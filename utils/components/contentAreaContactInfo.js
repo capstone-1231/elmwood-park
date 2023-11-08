@@ -10,7 +10,6 @@ import Link from '@mui/material/Link';
 
 const StyledContainer = styled(Container)({
   display: 'flex',
-  padding: '4rem',
   justifyContent: 'center',
   alignContent: 'center'
 });
@@ -23,7 +22,7 @@ const IconFlex = styled('div')({
 const ContactInfo = ({ heading, phone, address, email, facebook }) => {
   return (
     <StyledContainer sx={{ 
-      flexDirection: "column"
+      flexDirection: 'column',
     }}>
         <Typography variant="h2" component="h2" gutterBottom>
           {heading}
