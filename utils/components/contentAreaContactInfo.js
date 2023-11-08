@@ -19,14 +19,28 @@ const IconFlex = styled('div')({
     alignItems: 'center'
 });
 
+const ElmwoodIconFlex = styled('div')({
+  display: 'flex',
+  alignItems: 'center',
+})
+
+const IconImage = styled('img')({
+  marginLeft: '1rem',
+  width: '2rem',
+  paddingBottom: '1rem'
+});
+
 const ContactInfo = ({ heading, phone, address, email, facebook }) => {
   return (
     <StyledContainer sx={{ 
       flexDirection: 'column',
     }}>
-        <Typography variant="h2" component="h2" gutterBottom>
-          {heading}
-        </Typography>
+        <ElmwoodIconFlex>
+          <Typography variant="h2" component="h2" gutterBottom>
+            {heading}
+          </Typography>
+          <IconImage src="tree-icon-left.png" alt="Elmwood Tree Icon" />
+        </ElmwoodIconFlex>
         <IconFlex>
             <PhoneIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }} />
             <Typography variant="body1" color="textSecondary" sx={{ padding: "1rem" }}>

@@ -9,14 +9,28 @@ const StyledContainer = styled(Container)({
   alignContent: 'center',
 });
 
+const ElmwoodIconFlex = styled('div')({
+  display: 'flex',
+  alignItems: 'center',
+})
+
+const IconImage = styled('img')({
+  marginLeft: '1rem',
+  width: '2rem',
+  paddingBottom: '1rem'
+});
+
 const HeadingWithTextBelow = ({ heading, paragraph1, paragraph2, paragraph3, paragraph4 }) => {
   return (
     <StyledContainer sx={{
       flexDirection: "column"
     }}>
-        <Typography variant="h2" component="h2" gutterBottom>
-          {heading}
-        </Typography>
+         <ElmwoodIconFlex>
+          <Typography variant="h2" component="h2" gutterBottom>
+            {heading}
+          </Typography>
+          <IconImage src="tree-icon-left.png" alt="Elmwood Tree Icon" />
+        </ElmwoodIconFlex>
         <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
             {paragraph1}
         </Typography>

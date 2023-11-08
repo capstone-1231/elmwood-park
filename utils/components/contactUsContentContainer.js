@@ -21,7 +21,7 @@ const ContactUsContentContainer = () => {
         flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" },
     }}>
         <HeadingWithTextBelow
-            heading="Volunteers Welcomed"
+            heading="Volunteers&nbsp;Welcomed"
             paragraph1="Elmwood Park Community League is currently looking for individuals who would like to sit on one of the new committees!  This opportunity requires less personal time but still allows you to help make a difference in your community!"
             paragraph2="Elmwood Park Community League is always looking for volunteers to help with community events!"
             paragraph3="Contact us at epcl.info@shaw.ca or check us out on Facebook to see how you can help make a difference!"
@@ -36,7 +36,7 @@ const ContactUsContentContainer = () => {
             src="vertical-line.webp"
         />
         <ContactInfo
-            heading="Contact Information"
+            heading="Contact&nbsp;Information"
             phone="780-479-1035"
             address="12505-75 St, Edmonton, AB, T5B 4K8"
             email="epcl.info@shaw.ca"

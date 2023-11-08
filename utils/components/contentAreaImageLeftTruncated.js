@@ -32,6 +32,17 @@ const ReadMoreButton = styled(Button)({
   marginTop: '1rem',
 });
 
+const ElmwoodIconFlex = styled('div')({
+  display: 'flex',
+  alignItems: 'center',
+})
+
+const IconImage = styled('img')({
+  marginLeft: '1rem',
+  width: '2rem',
+  paddingBottom: '1rem'
+});
+
 const ContentWithImageLeftTruncated = ({ imageSrc, heading, bodyText }) => {
   const isScreenSizeBelowMd = useMediaQuery('(max-width:850px)');
 
@@ -54,9 +65,12 @@ const ContentWithImageLeftTruncated = ({ imageSrc, heading, bodyText }) => {
         flex: 1,
         padding: { xs: "2rem 0", sm: "2rem 0", md: "2rem 0", lg: "0 1rem", xl: "0 1rem" }
       }}>
-        <Typography variant="h2" component="h2" gutterBottom>
-          {heading}
-        </Typography>
+        <ElmwoodIconFlex>
+          <Typography variant="h2" component="h2" gutterBottom>
+            {heading}
+          </Typography>
+          <IconImage src="tree-icon-left.png" alt="Elmwood Tree Icon" />
+        </ElmwoodIconFlex>
         <Typography variant="body1" color="textSecondary">
           {showFullText || !isScreenSizeBelowMd ? bodyText : `${bodyText.slice(0, 400)}...`}
           {isScreenSizeBelowMd && (

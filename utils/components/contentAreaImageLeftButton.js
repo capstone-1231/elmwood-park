@@ -31,6 +31,17 @@ const ReadMoreButton = styled(Button)({
   marginTop: '1rem',
 });
 
+const ElmwoodIconFlex = styled('div')({
+    display: 'flex',
+    alignItems: 'center',
+  })
+  
+  const IconImage = styled('img')({
+    marginLeft: '1rem',
+    width: '2rem',
+    paddingBottom: '1rem'
+  });
+
 const ContentWithImageLeftButton = ({ imageSrc, heading, bodyText1, bodyText2, bodyText3, bodyText4, buttonText, buttonLink }) => {
   return (
     <StyledContainer sx={{ 
@@ -45,9 +56,12 @@ const ContentWithImageLeftButton = ({ imageSrc, heading, bodyText1, bodyText2, b
         flex: 1,
         padding: { xs: "2rem 0", sm: "2rem 0", md: "2rem 0", lg: "0 1rem", xl: "0 1rem" }
       }}>
-        <Typography variant="h2" component="h2" gutterBottom>
-          {heading}
-        </Typography>
+        <ElmwoodIconFlex>
+          <Typography variant="h2" component="h2" gutterBottom>
+            {heading}
+          </Typography>
+          <IconImage src="tree-icon-left.png" alt="Elmwood Tree Icon" />
+        </ElmwoodIconFlex>
         <Typography variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
           {bodyText1}
         </Typography>
