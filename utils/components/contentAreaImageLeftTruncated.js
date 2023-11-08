@@ -32,7 +32,7 @@ const ReadMoreButton = styled(Button)({
   marginTop: '1rem',
 });
 
-const ContentWithImageLeft = ({ imageSrc, heading, bodyText }) => {
+const ContentWithImageLeftTruncated = ({ imageSrc, heading, bodyText }) => {
   const isScreenSizeBelowMd = useMediaQuery('(max-width:850px)');
 
   const [showFullText, setShowFullText] = useState(false);
@@ -78,4 +78,4 @@ const ContentWithImageLeft = ({ imageSrc, heading, bodyText }) => {
   );
 };
 
-export default ContentWithImageLeft;
+export default ContentWithImageLeftTruncated;
