@@ -1,5 +1,4 @@
 import '../styles/global.css';
-import '../styles/AboutUsCardStyles.css';
 import '../styles/MobileCards.css';
 
 import '../styles/homecards.css';
