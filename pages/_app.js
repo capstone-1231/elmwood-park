@@ -2,8 +2,6 @@ import '../styles/global.css';
 import '../styles/AboutUsCardStyles.css';
 import '../styles/MobileCards.css';
 
-import '../styles/homecards.css';
-
 import { ThemeProvider } from '@mui/material';
 import { theme } from '../utils/theme/theme-config.js';
 import CssBaseline from '@mui/material/CssBaseline';
