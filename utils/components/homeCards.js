@@ -13,64 +13,85 @@ import { Padding } from '@mui/icons-material';
 export default function homeCards() {
     const theme = useTheme();
     return (
-            <Container className="container">
-            <Card className="card">
+        <Container sx={{
+            flexWrap: 'wrap',
+            maxWidth: '100%',
+            justifyContent: 'space-evenly',
+            display: { xs: "none", sm: "none", md: "none", lg: "flex", xl: "flex" }
+        }}>
+            <Card sx={{ display: 'flex', width: '20%', margin: 'none' }}>
                 <Box>
-                    <CardContent className="card-content">
-                        <Typography variant='h3' className="card-title">RatCreek Press</Typography>
+                    <CardContent sx={{ padding: '1rem' }}>
+                        <Typography variant='h3'>RatCreek Press</Typography>
                     </CardContent>
-                    <CardContent className="card-content">
-                        <Typography className="card-description">Take a look at articles that feature Elmwood Park.</Typography>
+                    <CardContent sx={{ padding: '1rem' }}>
+                        <Typography>Take a look at articles that feature Elmwood Park.</Typography>
                     </CardContent>
-                    <CardActions className="card-content">
-                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple className="card-button">
-                            Take a look!
-                        </Button>
+                    <CardActions sx={{ padding: '1rem' }}>
+                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                            borderRadius: '0.8rem',
+                            ':hover, :active, :focus': {
+                                bgcolor: 'secondary.main',
+                                color: '#ffffff',
+                            }
+                        }}>Take a look!</Button>
                     </CardActions>
                 </Box>
             </Card>
-            <Card className="card">
+            <Card sx={{ display: 'flex', width: '20%' }}>
                 <Box>
-                    <CardContent className="card-content">
-                        <Typography variant='h3' className="card-title">Volunteer Opportunities</Typography>
+                    <CardContent sx={{ padding: '1rem' }}>
+                        <Typography variant='h3'>Volunteer Opportunities</Typography>
                     </CardContent>
-                    <CardContent className="card-content">
-                        <Typography className="card-description">Explore Opportunities at Elmwood Park.</Typography>
+                    <CardContent sx={{ padding: '1rem' }}>
+                        <Typography>Explore Opportunities at Elmwood Park.</Typography>
                     </CardContent>
-                    <CardActions className="card-content">
-                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple className="card-button">
-                        Find Out More!
-                        </Button>
+                    <CardActions sx={{ padding: '1rem' }}>
+                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                            borderRadius: '0.8rem',
+                            ':hover, :active, :focus': {
+                                bgcolor: 'secondary.main',
+                                color: '#ffffff',
+                            }
+                        }}>Find Out More!</Button>
                     </CardActions>
                 </Box>
             </Card>
-            <Card className="card">
+            <Card sx={{ display: 'flex', width: '20%' }}>
                 <Box>
-                    <CardContent className="card-content">
-                        <Typography variant='h3' className="card-title">Hall Rental's</Typography>
+                    <CardContent sx={{ padding: '1rem' }}>
+                        <Typography variant='h3'>Hall Rental's</Typography>
                     </CardContent>
-                    <CardContent className="card-content">
-                        <Typography className="card-description">Discover rentalable spaces at Elmwood Park.</Typography>
+                    <CardContent sx={{ padding: '1rem' }}>
+                        <Typography>Discover rentalable spaces at Elmwood Park.</Typography>
                     </CardContent>
-                    <CardActions className="card-content">
-                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple className="card-button">
-                        Book Now!
-                        </Button>
+                    <CardActions sx={{ padding: '1rem' }}>
+                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                            borderRadius: '0.8rem',
+                            ':hover, :active, :focus': {
+                                bgcolor: 'secondary.main',
+                                color: '#ffffff',
+                            }
+                        }}>Book Now!</Button>
                     </CardActions>
                 </Box>
             </Card>
-            <Card className="card">
+            <Card sx={{ display: 'flex', width: '20%', padding: '0' }}>
                 <Box>
-                    <CardContent className="card-content">
-                        <Typography variant='h3' className="card-title">Have A Question?</Typography>
+                    <CardContent sx={{ padding: '1rem' }}>
+                        <Typography variant='h3'>Have A Question?</Typography>
                     </CardContent>
-                    <CardContent className="card-content">
-                        <Typography className="card-description">Reach out to us for any questions and inquires.</Typography>
+                    <CardContent sx={{ padding: '1rem' }}>
+                        <Typography>Reach out to us for any questions and inquires.</Typography>
                     </CardContent>
-                    <CardActions className="card-content">
-                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple className="card-button">
-                        Contact Us
-                        </Button>
+                    <CardActions sx={{ padding: '1rem' }}>
+                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                            borderRadius: '0.8rem',
+                            ':hover, :active, :focus': {
+                                bgcolor: 'secondary.main',
+                                color: '#ffffff',
+                            }
+                        }}>Contact Us</Button>
                     </CardActions>
                 </Box>
             </Card>
