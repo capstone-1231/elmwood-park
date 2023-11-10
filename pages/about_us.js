@@ -42,7 +42,7 @@ export default function Page() {
         />
         <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >View Our Members!</Typography>
         <ActionAreaCard />
-        <MobileCards></MobileCards>
+        <MobileCards />
       </main>
       <footer>
         <FooterNav />

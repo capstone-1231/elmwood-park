@@ -2,11 +2,6 @@ import Head from 'next/head';
 
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
-import HeroBanner from '@/utils/components/banner';
-import ContentWithImageLeft from '@/utils/components/contentAreaImageLeft';
-import ContentWithImageRight from '@/utils/components/contentAreaImageRight';
-import HomeCards from '@/utils/components/homeCards';
-import CardCarousel from '@/utils/components/cardCarousel';
 
 import Typography from '@mui/material/Typography';
 import Container  from '@mui/material/Container';
