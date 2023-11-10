@@ -43,15 +43,15 @@ export const themeOptions = {
       },
       h4: {
         fontFamily: 'Libre Baskerville',
-        fontSize: '1.4rem',
+        fontSize: '1.1rem',
       },
       h5: {
         fontFamily: 'Libre Baskerville',
-        fontSize: '1.2rem',
+        fontSize: '1rem',
       },
       h6: {
         fontFamily: 'Libre Baskerville',
-        fontSize: '1rem',
+        fontSize: '0.8rem',
       },
       subtitle1: {
         fontSize: '1rem',
