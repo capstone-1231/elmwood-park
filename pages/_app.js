@@ -1,7 +1,4 @@
 import '../styles/global.css';
-import '../styles/MobileCards.css';
-
-import '../styles/homecards.css';
 
 import { ThemeProvider } from '@mui/material';
 import { theme } from '../utils/theme/theme-config.js';
