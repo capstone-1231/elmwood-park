@@ -16,7 +16,7 @@ export default function homeCards() {
         <Container sx={{
             flexWrap: 'wrap',
             maxWidth: '100%',
-            justifyContent: 'space-evenly',
+            justifyContent: 'space-between',
             display: { xs: "none", sm: "none", md: "none", lg: "flex", xl: "flex" }
         }}>
             <Card sx={{ display: 'flex', width: '20%', margin: 'none' }}>

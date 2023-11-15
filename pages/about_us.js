@@ -40,14 +40,7 @@ export default function Page() {
           buttonLink="/files/EPCL_Bylaws_2018.pdf"
           buttonText="View Bylaws"
         />
-        <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >
-          View Our Members! MEMBERS AT LARGEMEMBERS AT LARGEMEMBERS AT LARGE
-        </Typography>
-        <Container>
-          <Typography variant="body1" component="h2" color="textSecondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >
-            "Everyday there are people working to make our neighbourhood better.  They aren’t paid by the city; they are just residents that want to be part of something bigger than themselves and want to create something better for their community."
-          </Typography>
-        </Container>
+        <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >View Our Members!</Typography>
         <ActionAreaCard />
         <MobileCards />
       </main>
