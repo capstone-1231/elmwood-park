@@ -18,6 +18,7 @@ export default function Page() {
       </header>
       <main>
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Events</Typography>
+      <iframe src="https://calendar.google.com/calendar/embed?src=elmwoodparkclcalendar%40gmail.com&ctz=America%2FEdmonton"></iframe>
       </main>
       <footer>
         <FooterNav />
