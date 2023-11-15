@@ -35,7 +35,7 @@ export const themeOptions = {
       htmlFontSize: '1rem',
       h2: {
         fontFamily: 'Libre Baskerville',
-        fontSize: '2.5rem',
+        fontSize: '2rem',
         fontWeight: '700',
       },
       h3: {
