@@ -73,7 +73,7 @@ const ContactForm = () => {
           gap: '1rem',
         }}
       >
-        <NameFlexContainer>
+        <NameFlexContainer sx={{ flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" } }}>
           <TextField
             sx={{
               flexGrow: '1',
@@ -210,9 +210,8 @@ const ContactForm = () => {
           type="submit"
           variant="contained"
           color="primary"
-          disableRipple
           sx={{
-            width: '8rem',
+            width: '100%',
             borderRadius: '0.8rem',
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',

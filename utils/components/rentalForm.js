@@ -6,9 +6,14 @@ import Button from '@mui/material/Button';
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 import InputLabel from '@mui/material/InputLabel';
+import Alert from '@mui/material/Alert'
+import ButtonGroup from '@mui/material/ButtonGroup'
+
+import emailjs from 'emailjs-com';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
+import dayjs from 'dayjs';
 
 const NameFlexContainer = styled('div')({
   display: 'flex',
@@ -26,6 +31,52 @@ const RentalForm = () => {
     date: null,
   });
 
+  const [submitStatus, setSubmitStatus] = useState(null);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    const serviceID = 'service_8k1v5ot';
+    const userID = 'w9dPXJSZ_AucFEwRs';
+    const templateID = 'template_q2wxbw1';
+
+    try {
+      const response = await emailjs.send(serviceID, templateID, {
+        from_name: `${formData.firstName} ${formData.lastName}`,
+        from_email: formData.email,
+        phone_number: formData.phoneNumber,
+        message: formData.message,
+        spaceType: formData.spaceType,
+        date: formData.date
+      }, userID);
+
+      console.log('Email sent successfully:', response);
+
+      setSubmitStatus('success');
+      setFormData({
+        firstName: '',
+        lastName: '',
+        phoneNumber: '',
+        email: '',
+        message: '',
+        spaceType: '',
+        date: null
+      });
+
+    } catch (error) {
+      console.error('Error sending email:', error);
+      setSubmitStatus('error');
+    }
+  };
+
+  const handleButtonClick = (value) => {
+    setFormData({
+      ...formData,
+      spaceType: value,
+    });
+  };
+
+
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setFormData({
@@ -34,19 +85,18 @@ const RentalForm = () => {
     });
   };
 
+  const currentDate = dayjs();
+
   const handleDateChange = (date) => {
-    setFormData({
-      ...formData,
-      date: date,
-    });
+    if (dayjs(date).isAfter(dayjs(), 'day')) {
+      setFormData({
+        ...formData,
+        date: date,
+      });
+    } else {
+      console.error('Selected date is not valid.');
+    }
   };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // handle form submission logic
-    console.log(formData);
-  };
-
   return (
     <form onSubmit={handleSubmit}>
       <Container
@@ -59,7 +109,7 @@ const RentalForm = () => {
           paddingBottom: '1rem',
         }}
       >
-        <NameFlexContainer>
+        <NameFlexContainer sx={{ flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" } }}>
           <TextField
             sx={{
               flexGrow: '1',
@@ -179,12 +229,101 @@ const RentalForm = () => {
             },
           }}
         />
-      
+
         <InputLabel htmlFor="space-type" sx={{ paddingLeft: '0.5rem' }}>
           Space Type
         </InputLabel>
-        <NameFlexContainer>
-          <Select
+        <ButtonGroup sx={{
+            display: 'flex',
+            flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" },
+            justifyContent: 'center',
+            gap: '0.5rem',
+            width: '100%'
+          }}>
+          <Button
+            variant={formData.spaceType === 'Den' ? 'contained' : 'outlined'}
+            onClick={() => handleButtonClick('Den')}
+            sx={{
+              flexGrow: 1,
+              color: '#302400',
+              padding: '1rem 0',
+              width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
+              bgcolor: formData.spaceType === 'Den' ? '#50891e' : '#d9e2b5',
+              '&:hover': {
+                bgcolor: '#50891e',
+              },
+            }}
+          >
+            Den
+          </Button>
+          <Button
+            variant={formData.spaceType === 'Board Room' ? 'contained' : 'outlined'}
+            onClick={() => handleButtonClick('Board Room')}
+            sx={{
+              flexGrow: 1,
+              color: '#302400',
+              padding: '1rem 0',
+              width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
+              bgcolor: formData.spaceType === 'Board Room' ? '#50891e' : '#d9e2b5',
+              '&:hover': {
+                bgcolor: '#50891e',
+              },
+            }}
+          >
+            Board Room
+          </Button>
+          <Button
+            variant={formData.spaceType === 'Green Space' ? 'contained' : 'outlined'}
+            onClick={() => handleButtonClick('Green Space')}
+            sx={{
+              flexGrow: 1,
+              color: '#302400',
+              padding: '1rem 0',
+              width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
+              bgcolor: formData.spaceType === 'Green Space' ? '#50891e' : '#d9e2b5',
+              '&:hover': {
+                bgcolor: '#50891e',
+              },
+            }}
+          >
+            Green Space
+          </Button>
+          <Button
+            variant={formData.spaceType === 'Den & Green Space' ? 'contained' : 'outlined'}
+            onClick={() => handleButtonClick('Den & Green Space')}
+            sx={{
+              flexGrow: 1,
+              color: '#302400',
+              padding: '1rem 0',
+              width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
+              bgcolor: formData.spaceType === 'Den & Green Space' ? '#50891e' : '#d9e2b5',
+              '&:hover': {
+                bgcolor: '#50891e',
+              },
+            }}
+          >
+            Den & Green Space
+          </Button>
+          <Button
+            variant={formData.spaceType === 'Board & Green Space' ? 'contained' : 'outlined'}
+            onClick={() => handleButtonClick('Board & Green Space')}
+            sx={{
+              flexGrow: 1,
+              color: '#302400',
+              padding: '1rem 0',
+              width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
+              bgcolor: formData.spaceType === 'Board & Green Space' ? '#50891e' : '#d9e2b5',
+              '&:hover': {
+                bgcolor: '#50891e',
+              },
+            }}
+          >
+            Board & Green Space
+          </Button>
+        </ButtonGroup>
+
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
+          <DatePicker
             sx={{
               flexGrow: '1',
               background: '#ffffff',
@@ -197,57 +336,36 @@ const RentalForm = () => {
                 },
               },
             }}
-            labelId="space-type"
-            label="Space Type"
-            name="spaceType"
-            value={formData.spaceType}
-            onChange={handleInputChange}
-            required
+            label="Choose a Date"
+            name="date"
+            value={formData.date}
+            minDate={currentDate}
+            onChange={handleDateChange}
             InputProps={{
               sx: {
                 borderRadius: '0.8rem',
               },
             }}
-          >
-            <MenuItem value="Den">Den</MenuItem>
-            <MenuItem value="Board Room">Board Room</MenuItem>
-            <MenuItem value="Green Space">Green Space</MenuItem>
-            <MenuItem value="Den & Green Space">Den & Green Space</MenuItem>
-            <MenuItem value="Board & Greenspace">Board & Greenspace</MenuItem>
-          </Select>
-          <LocalizationProvider dateAdapter={AdapterDayjs}>
-            <DatePicker
-              sx={{
-                flexGrow: '1',
-                background: '#ffffff',
-                '& label.Mui-focused': {
-                  color: '#50891e',
-                },
-                '& .MuiOutlinedInput-root': {
-                  '&.Mui-focused fieldset': {
-                    borderColor: '#50891e',
-                  },
-                },
-              }}
-              label="Choose a Date"
-              name="date"
-              value={formData.date}
-              onChange={handleDateChange}
-              InputProps={{
-                sx: {
-                  borderRadius: '0.8rem',
-                },
-              }}
-            />
-          </LocalizationProvider>
-        </NameFlexContainer>
+          />
+        </LocalizationProvider>
+
+        {submitStatus === 'success' && (
+          <Alert variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', color: 'green' }}>
+            Thank you for your submission!
+          </Alert>
+        )}
+
+        {submitStatus === 'error' && (
+          <Alert variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', color: 'red' }}>
+            Error submitting the form. Please try again.
+          </Alert>
+        )}
         <Button
           type="submit"
           variant="contained"
           color="primary"
-          disableRipple
           sx={{
-            width: '8rem',
+            width: '100%',
             borderRadius: '0.8rem',
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
