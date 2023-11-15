@@ -25,22 +25,24 @@ export default function Page() {
       </header>
       <main>
         <ContentWithImageRight
-         imageSrc="ElmwoodCommunityPark.webp"
-         heading="About Us"
-         bodyText1="Elmwood Park Community League is a small community league located in the Elmwood Park. Elmwood Park has been an integral part within the community, hosting seasonal events and get-togethers for all individuals. Although small, Elmwood Park continues to grow and expand its projects and outreach. These include events like Walk Your Block, Volunteer Opportunities as-well as the planting of Elm Tree all around the community for the Veterans who live in the community."
-         bodyText2="Recently, Elmwood Park has renovated and completed its newest Den, which is also available for rental. Furthermore, the Community Garden has also undergone renovations and expanded into a much larger plot allowing for additional community members to come and reserve their garden plot!"
+          imageSrc="ElmwoodCommunityPark.webp"
+          heading="About Us"
+          bodyText1="Elmwood Park Community League is a small community league located in the Elmwood Park. Elmwood Park has been an integral part within the community, hosting seasonal events and get-togethers for all individuals. Although small, Elmwood Park continues to grow and expand its projects and outreach. These include events like Walk Your Block, Volunteer Opportunities as-well as the planting of Elm Tree all around the community for the Veterans who live in the community."
+          bodyText2="Recently, Elmwood Park has renovated and completed its newest Den, which is also available for rental. Furthermore, the Community Garden has also undergone renovations and expanded into a much larger plot allowing for additional community members to come and reserve their garden plot!"
         />
-        <ContentWithImageLeftButton 
-        imageSrc="ElmwoodBoundries.webp"
-        heading="Current Bylaws"
-        bodyText1="These bylaws were assumed from a template provided by the Edmonton Federation of Community Leagues and edited to suit Elmwood Park Community League. A vote was held at the AGM on September 26th, 2018 and the new bylaws were adopted."
-        bodyText2="Elmwood Park Community League prides itself on these Bylaws introduced by the Edmonton Federation of the Community Leagues."
-        bodyText3="All residents and community staff members respect these bylaws and expect all individuals to obey and abide by these bylaws."
-        bodyText4="​If you have any questions, please email president Morgan Wolf at epcl.info @ shaw.ca or attend one of the monthly meetings!"
-        buttonLink="/files/EPCL_Bylaws_2018.pdf"
-        buttonText="View Bylaws"
+        <ContentWithImageLeftButton
+          imageSrc="ElmwoodBoundries.webp"
+          heading="Current Bylaws"
+          bodyText1="These bylaws were assumed from a template provided by the Edmonton Federation of Community Leagues and edited to suit Elmwood Park Community League. A vote was held at the AGM on September 26th, 2018 and the new bylaws were adopted."
+          bodyText2="Elmwood Park Community League prides itself on these Bylaws introduced by the Edmonton Federation of the Community Leagues."
+          bodyText3="All residents and community staff members respect these bylaws and expect all individuals to obey and abide by these bylaws."
+          bodyText4="​If you have any questions, please email president Morgan Wolf at epcl.info @ shaw.ca or attend one of the monthly meetings!"
+          buttonLink="/files/EPCL_Bylaws_2018.pdf"
+          buttonText="View Bylaws"
         />
-        <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >View Our Members!</Typography>
+        <Container>
+        <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem'}} >View Our Members!</Typography>
+          </Container>
         <ActionAreaCard />
         <MobileCards />
       </main>
