@@ -40,9 +40,7 @@ export default function Page() {
           buttonLink="/files/EPCL_Bylaws_2018.pdf"
           buttonText="View Bylaws"
         />
-        <Container>
-        <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem'}} >View Our Members!</Typography>
-          </Container>
+        <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >View Our Members!</Typography>
         <ActionAreaCard />
         <MobileCards />
       </main>
