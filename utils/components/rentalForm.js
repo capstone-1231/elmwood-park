@@ -237,7 +237,6 @@ const RentalForm = () => {
             display: 'flex',
             flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" },
             justifyContent: 'center',
-            gap: '0.5rem',
             width: '100%'
           }}>
           <Button
@@ -245,12 +244,15 @@ const RentalForm = () => {
             onClick={() => handleButtonClick('Den')}
             sx={{
               flexGrow: 1,
-              color: '#302400',
-              padding: '1rem 0',
+              color: formData.spaceType === 'Den' ? '#FFFFFF' : '#302400',
+              padding: '0.5rem 1rem',
               width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
-              bgcolor: formData.spaceType === 'Den' ? '#50891e' : '#d9e2b5',
+              bgcolor: formData.spaceType === 'Den' ? '#50891e' : '#FFFFFF',
+              border: '1px solid #302400',
+              fontSize: '0.8rem',
               '&:hover': {
                 bgcolor: '#50891e',
+                color: '#FFFFFF'
               },
             }}
           >
@@ -261,12 +263,15 @@ const RentalForm = () => {
             onClick={() => handleButtonClick('Board Room')}
             sx={{
               flexGrow: 1,
-              color: '#302400',
-              padding: '1rem 0',
+              color: formData.spaceType === 'Board Room' ? '#FFFFFF' : '#302400',
+              padding: '0.5rem 1rem',
               width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
-              bgcolor: formData.spaceType === 'Board Room' ? '#50891e' : '#d9e2b5',
+              bgcolor: formData.spaceType === 'Board Room' ? '#50891e' : '#FFFFFF',
+              border: '1px solid #302400',
+              fontSize: '0.8rem',
               '&:hover': {
                 bgcolor: '#50891e',
+                color: '#FFFFFF'
               },
             }}
           >
@@ -277,12 +282,15 @@ const RentalForm = () => {
             onClick={() => handleButtonClick('Green Space')}
             sx={{
               flexGrow: 1,
-              color: '#302400',
-              padding: '1rem 0',
+              color: formData.spaceType === 'Green Space' ? '#FFFFFF' : '#302400',
+              padding: '0.5rem 1rem',
               width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
-              bgcolor: formData.spaceType === 'Green Space' ? '#50891e' : '#d9e2b5',
+              bgcolor: formData.spaceType === 'Green Space' ? '#50891e' : '#FFFFFF',
+              border: '1px solid #302400',
+              fontSize: '0.8rem',
               '&:hover': {
                 bgcolor: '#50891e',
+                color: '#FFFFFF'
               },
             }}
           >
@@ -293,12 +301,15 @@ const RentalForm = () => {
             onClick={() => handleButtonClick('Den & Green Space')}
             sx={{
               flexGrow: 1,
-              color: '#302400',
-              padding: '1rem 0',
+              color: formData.spaceType === 'Den & Green Space' ? '#FFFFFF' : '#302400',
+              padding: '0.5rem 1rem',
               width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
-              bgcolor: formData.spaceType === 'Den & Green Space' ? '#50891e' : '#d9e2b5',
+              bgcolor: formData.spaceType === 'Den & Green Space' ? '#50891e' : '#FFFFFF',
+              border: '1px solid #302400',
+              fontSize: '0.8rem',
               '&:hover': {
                 bgcolor: '#50891e',
+                color: '#FFFFFF'
               },
             }}
           >
@@ -309,12 +320,15 @@ const RentalForm = () => {
             onClick={() => handleButtonClick('Board & Green Space')}
             sx={{
               flexGrow: 1,
-              color: '#302400',
-              padding: '1rem 0',
+              color: formData.spaceType === 'Board & Green Space' ? '#FFFFFF' : '#302400',
+              padding: '0.5rem 1rem',
               width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
-              bgcolor: formData.spaceType === 'Board & Green Space' ? '#50891e' : '#d9e2b5',
+              bgcolor: formData.spaceType === 'Board & Green Space' ? '#50891e' : '#FFFFFF',
+              border: '1px solid #302400',
+              fontSize: '0.8rem',
               '&:hover': {
                 bgcolor: '#50891e',
+                color: '#FFFFFF'
               },
             }}
           >
