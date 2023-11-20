@@ -19,7 +19,7 @@ export default function Page() {
       </header>
       <main>
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Amenities</Typography>
-      <RentalForm />
+      <RentalForm id="rental" />
       </main>
       <footer>
         <FooterNav />
