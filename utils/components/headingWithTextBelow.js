@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { styled } from '@mui/system';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
@@ -25,24 +25,32 @@ const HeadingWithTextBelow = ({ heading, paragraph1, paragraph2, paragraph3, par
     <StyledContainer sx={{
       flexDirection: "column"
     }}>
-         <ElmwoodIconFlex>
+         <ElmwoodIconFlex sx={{ paddingTop: '3rem' }}>
           <Typography variant="h2" component="h2" gutterBottom>
             {heading}
           </Typography>
           <IconImage src="tree-icon-left.png" alt="Elmwood Tree Icon" />
         </ElmwoodIconFlex>
-        <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
+        {paragraph1 && (
+          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
             {paragraph1}
-        </Typography>
-        <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
+          </Typography>
+        )}
+        {paragraph2 && (
+          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
             {paragraph2}
-        </Typography>
-        <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
+          </Typography>
+        )}
+        {paragraph3 && (
+          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
             {paragraph3}
-        </Typography>
-        <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
+          </Typography>
+        )}
+        {paragraph4 && (
+          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
             {paragraph4}
-        </Typography>
+          </Typography>
+        )}
     </StyledContainer>
   );
 };
