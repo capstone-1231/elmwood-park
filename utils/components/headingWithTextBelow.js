@@ -25,11 +25,11 @@ const HeadingWithTextBelow = ({ heading, paragraph1, paragraph2, paragraph3, par
     <StyledContainer sx={{
       flexDirection: "column"
     }}>
-         <ElmwoodIconFlex sx={{ paddingTop: '3rem' }}>
+         <ElmwoodIconFlex sx={{ marginTop: '2rem' }}>
           <Typography variant="h2" component="h2" gutterBottom>
             {heading}
           </Typography>
-          <IconImage src="tree-icon-left.png" alt="Elmwood Tree Icon" />
+          <IconImage sx={{ display: { xs: "none", sm: "none", md: "inherit", lg: "inherit", xl: "inherit" }, }} src="tree-icon-left.png" alt="Elmwood Tree Icon" />
         </ElmwoodIconFlex>
         {paragraph1 && (
           <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
