@@ -47,7 +47,7 @@ export default function homeCards() {
                         <Typography>Explore Opportunities at Elmwood Park.</Typography>
                     </CardContent>
                     <CardActions sx={{ padding: '1rem' }}>
-                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                        <Button href='/contact_us/vol' variant='contained' size='small' color="primary" disableRipple sx={{
                             borderRadius: '0.8rem',
                             ':hover, :active, :focus': {
                                 bgcolor: 'secondary.main',
@@ -66,7 +66,7 @@ export default function homeCards() {
                         <Typography>Discover rentalable spaces at Elmwood Park.</Typography>
                     </CardContent>
                     <CardActions sx={{ padding: '1rem' }}>
-                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                        <Button href='/amenities' variant='contained' size='small' color="primary" disableRipple sx={{
                             borderRadius: '0.8rem',
                             ':hover, :active, :focus': {
                                 bgcolor: 'secondary.main',
