@@ -21,13 +21,13 @@ export default function homeCards() {
             <Card sx={{ display: 'flex', width: '20%', margin: 'none' }}>
                 <Box>
                     <CardContent sx={{ padding: '1rem' }}>
-                        <Typography variant='h3'>RatCreek Press</Typography>
+                        <Typography variant='h3'>Facebook</Typography>
                     </CardContent>
                     <CardContent sx={{ padding: '1rem' }}>
-                        <Typography>Take a look at articles that feature Elmwood Park.</Typography>
+                        <Typography>Take a look at posts that feature Elmwood Park.</Typography>
                     </CardContent>
                     <CardActions sx={{ padding: '1rem' }}>
-                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                        <Button href='https://www.facebook.com/ElmwoodParkCL' target='_blank' variant='contained' size='small' color="primary" disableRipple sx={{
                             borderRadius: '0.8rem',
                             ':hover, :active, :focus': {
                                 bgcolor: 'secondary.main',
