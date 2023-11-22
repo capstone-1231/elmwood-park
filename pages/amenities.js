@@ -6,6 +6,9 @@ import RentalForm from '@/utils/components/rentalForm';
 
 import Typography from '@mui/material/Typography';
 
+import ImgList from '@/utils/components/imgList';
+import MobileImgCarousel from '@/utils/components/mobileImgCarousel';
+
 export default function Page() {
   return (
     <div>
@@ -19,6 +22,8 @@ export default function Page() {
       </header>
       <main>
       <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >Amenities</Typography>
+      <ImgList/>
+      <MobileImgCarousel/>
       <RentalForm id="rental" />
       </main>
       <footer>

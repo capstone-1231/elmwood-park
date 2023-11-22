@@ -2,10 +2,8 @@ import Head from 'next/head';
 
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
-import ImgList from '@/utils/components/imgList';
 import Typography from '@mui/material/Typography';
 
-import MobileImgCarousel from '@/utils/components/mobileImgCarousel';
 import ContentAreaImageRightBulletedList from '@/utils/components/contentAreaImageRightBulletedList';
 
 export default function Page() {
@@ -26,8 +24,6 @@ export default function Page() {
         listItem1="Papa John's pizza - 30% discount off all online orders. Just use the code PAULA30"
         
       />
-      <ImgList/>
-      <MobileImgCarousel/>
       </main>
       <footer>
         <FooterNav />
