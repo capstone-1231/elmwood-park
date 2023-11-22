@@ -135,6 +135,7 @@ const Navbar = () => {
         {showMobileMenu && (
           <MobileMenu>
             <Link href='/' color="inherit" sx={{
+              width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -144,6 +145,7 @@ const Navbar = () => {
             }}
             >Home</Link>
             <Link href='/about_us' color="inherit" sx={{
+              width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -152,6 +154,7 @@ const Navbar = () => {
               },
             }}>About Us</Link>
             <Link href='/membership' color="inherit" sx={{
+              width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -160,6 +163,7 @@ const Navbar = () => {
               },
             }}>Membership</Link>
             <Link href='/amenities' color="inherit" sx={{
+              width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -168,6 +172,7 @@ const Navbar = () => {
               },
             }}>Amenities</Link>
             <Link href='/events' color="inherit" sx={{
+              width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
@@ -176,6 +181,7 @@ const Navbar = () => {
               },
             }}>Events</Link>
             <Link href='/contact_us' color="inherit" sx={{
+              width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',

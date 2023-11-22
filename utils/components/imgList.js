@@ -93,6 +93,7 @@ export default function ImgList() {
       display: { xs: "none", sm: "none", md: "none", lg: "block", xl: "block" },
       alignContent: 'center',
       justifyContent: 'center',
+      paddingBottom: '1.5rem'
     }}>
       <Carousel sx={{ maxWidth: '50%', margin: '0 auto' }}>
         {itemData.map((item) => (
