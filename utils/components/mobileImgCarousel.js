@@ -34,9 +34,10 @@ export default function MobileImgCarousel() {
         <Container sx={{
             minHeight: '10vh',
             width: '100%',
-            display: { xs: "block", sm: "block", md: "block", lg: "none", xl: "none" }
+            display: { xs: "block", sm: "block", md: "block", lg: "none", xl: "none" },
+            paddingBottom: '1.5rem'
         }}>
-            <Carousel sx={{ width: '100%' }} autoPlay={false}>
+            <Carousel sx={{ width: '100%' }}>
                 {itemData.map((item) => (
                     <img
                         key={item.img}
