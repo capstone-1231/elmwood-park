@@ -3,7 +3,6 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
 import Container from '@mui/material/Container';
 
 export default function ActionAreaCard() {
@@ -15,7 +14,6 @@ export default function ActionAreaCard() {
       display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex" }
     }}>
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
-        <CardActionArea>
           <CardMedia
             component="img"
             height="280"
@@ -37,10 +35,8 @@ export default function ActionAreaCard() {
               Community Garden Coordinator
             </Typography>
           </CardContent>
-        </CardActionArea>
       </Card>
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
-        <CardActionArea>
           <CardMedia
             component="img"
             height="280"
@@ -62,10 +58,8 @@ export default function ActionAreaCard() {
               Vice President
             </Typography>
           </CardContent>
-        </CardActionArea>
       </Card>
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
-        <CardActionArea>
           <CardMedia
             component="img"
             height="280"
@@ -87,11 +81,9 @@ export default function ActionAreaCard() {
               Treasurer
             </Typography>
           </CardContent>
-        </CardActionArea>
       </Card>
       {/* 2nd set of Cards */}
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
-        <CardActionArea>
           <CardMedia
             component="img"
             height="280"
@@ -113,10 +105,8 @@ export default function ActionAreaCard() {
               Secretary
             </Typography>
           </CardContent>
-        </CardActionArea>
       </Card>
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
-        <CardActionArea>
           <CardMedia
             component="img"
             height="280"
@@ -138,10 +128,8 @@ export default function ActionAreaCard() {
             Crafts Coordinator
             </Typography>
           </CardContent>
-        </CardActionArea>
       </Card>
       <Card sx={{ maxWidth: "100%", width: "30%" }}>
-        <CardActionArea>
           <CardMedia
             component="img"
             height="280"
@@ -163,11 +151,9 @@ export default function ActionAreaCard() {
               Maintenance
             </Typography>
           </CardContent>
-        </CardActionArea>
       </Card>
       {/* 3nd set of final card */}
       <Card sx={{ maxWidth: "100%", width: "30%", marginBottom: "1.5rem" }}>
-        <CardActionArea>
           <CardMedia
             component="img"
             height="280"
@@ -189,7 +175,6 @@ export default function ActionAreaCard() {
               President
             </Typography>
           </CardContent>
-        </CardActionArea>
       </Card>
     </Container>
   );

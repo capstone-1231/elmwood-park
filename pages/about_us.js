@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import MobileCards from '@/utils/components/mobileCards';
 import ContentWithImageLeftButton from '@/utils/components/contentAreaImageLeftButton';
 import ContentWithImageRight from '@/utils/components/contentAreaImageRight';
+import MembersQuote from '@/utils/components/memberQuotesAndMems';
 
 
 export default function Page() {
@@ -40,9 +41,21 @@ export default function Page() {
           buttonLink="/files/EPCL_Bylaws_2018.pdf"
           buttonText="View Bylaws"
         />
-        <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >View Our Members!</Typography>
+        <Container>
+          <Typography variant="h2" component="h2" color="#816719" sx={{ padding: '2rem 1rem', textAlign: 'center' }} >View Our Members!
+          </Typography>
+          <MembersQuote />
+        </Container>
         <ActionAreaCard />
         <MobileCards />
+        <Container>
+          <Typography variant="h3" component="h2" color="#816719" sx={{ padding: '2rem 1rem', textAlign: 'center' }}>
+              Members at Large
+          </Typography>
+          <Typography sx={{ paddingBottom: '1rem', textAlign: 'center' }}>
+              Jaqueline Williams, Phil Moore, Cindy Verner
+          </Typography>
+        </Container>
       </main>
       <footer>
         <FooterNav />
