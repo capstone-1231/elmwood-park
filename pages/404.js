@@ -6,9 +6,8 @@ import FooterNav from '@/utils/components/footer';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { Padding } from '@mui/icons-material';
 
-// Dynamically import the Snake component
+
 const Snake = dynamic(() => import('snake-game-react'), { ssr: false });
 
 export default function Page() {

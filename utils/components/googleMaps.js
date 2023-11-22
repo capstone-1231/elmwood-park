@@ -23,7 +23,7 @@ const GoogleMaps = () => {
 
     const handleMarkerClick = () => {
         setIsInfoWindowOpen(!isInfoWindowOpen)
-    }
+    }  
 
     return (
         <Paper elevation={3}>

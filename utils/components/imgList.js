@@ -10,25 +10,81 @@ export default function ImgList() {
     },
     {
       img: './img/ElmwoodParkBoardRoom2.webp',
-      title: 'Burger',
+      title: 'Board Room',
     },
     {
       img: './img/ElmwoodParkBoardRoom3.webp',
-      title: 'Camera',
+      title: 'Board Room',
     },
   
     {
       img: './img/ElmwoodParkDen.webp',
-      title: 'Coffee',
+      title: 'Den',
     },
     {
       img: './img/ElmwoodParkDen2.webp',
-      title: 'Hats',
+      title: 'Den',
     },
     {
       img: './img/ElmwoodParkDen3.webp',
-      title: 'Honey',
-    }
+      title: 'Den',
+    },
+    {
+      img: './img/ElmwoodParkElectrical.webp',
+      title: 'Electrical Room',
+    },
+    {
+      img: './img/ElmwoodParkFurnace.webp',
+      title: 'Furnace Room',
+    },
+    {
+      img: './img/ElmwoodParkGarden.webp',
+      title: 'Garden',
+    },
+    {
+      img: './img/ElmwoodParkGarden2.webp',
+      title: 'Garden',
+    },
+    {
+      img: './img/ElmwoodParkKitchen.webp',
+      title: 'Kitechen',
+    },
+    {
+      img: './img/ElmwoodParkKitechen2.webp',
+      title: 'Kitechen',
+    },
+    {
+      img: './img/ElmwoodParkOffice.webp',
+      title: 'Office',
+    },
+    {
+      img: './img/ElmwoodParkOffice2.webp',
+      title: 'Office',
+    },
+    {
+      img: './img/ElmwoodParkOffice4.webp',
+      title: 'Office',
+    },
+    {
+      img: './img/ElmwoodParkOutside.webp',
+      title: 'Outter Area',
+    },
+    {
+      img: './img/ElmwoodParkOutside2.webp',
+      title: 'Outter Area',
+    },
+    {
+      img: './img/ElmwoodParkOutside3.webp',
+      title: 'Outter Area',
+    },
+    {
+      img: './img/ElmwoodParkOutside4.webp',
+      title: 'Outter Area',
+    },
+    {
+      img: './img/ElmwoodParkOutside5.webp',
+      title: 'Outter Area',
+    },
   ];
 
   return (
@@ -37,8 +93,9 @@ export default function ImgList() {
       display: { xs: "none", sm: "none", md: "none", lg: "block", xl: "block" },
       alignContent: 'center',
       justifyContent: 'center',
+      paddingBottom: '1.5rem'
     }}>
-      <Carousel sx={{ maxWidth: '100%' }}>
+      <Carousel sx={{ maxWidth: '50%', margin: '0 auto' }}>
         {itemData.map((item) => (
           <img
             key={item.img}

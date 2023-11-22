@@ -2,10 +2,8 @@ import Head from 'next/head';
 
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
-import ImgList from '@/utils/components/imgList';
 import Typography from '@mui/material/Typography';
 
-import MobileImgCarousel from '@/utils/components/mobileImgCarousel';
 import ContentAreaImageRightBulletedList from '@/utils/components/contentAreaImageRightBulletedList';
 import HeadingWithTextBelow from '@/utils/components/headingWithTextBelow';
 
@@ -40,8 +38,6 @@ export default function Page() {
         listItem10="Sports team registration (offered through various leagues)."
         listItem11="Vote at our league's Annual General Meeting and/or run for the league board."
       />
-      <ImgList/>
-      <MobileImgCarousel/>
       </main>
       <footer>
         <FooterNav />
