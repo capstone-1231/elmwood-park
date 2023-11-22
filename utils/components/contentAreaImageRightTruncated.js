@@ -58,7 +58,7 @@ const ContentWithImageRightTruncated = ({ imageSrc, heading, bodyText }) => {
     }}>
       <Box sx={{ 
         flex: 1,
-        padding: { xs: "2rem 0", sm: "2rem 0", md: "2rem 0", lg: "0 1rem", xl: "0 1rem" }
+        padding: { xs: "2rem 0", sm: "2rem 0", md: "2rem 0", lg: "0 1rem 0 0", xl: "0 1rem 0 0" }
       }}>
         <ElmwoodIconFlex>
           <Typography variant="h2" component="h2" gutterBottom>
@@ -84,7 +84,7 @@ const ContentWithImageRightTruncated = ({ imageSrc, heading, bodyText }) => {
         </Typography>
       </Box>
       <StyledImageContainer sx={{
-        paddingRight: { xs: "0", sm: "0", md: "0", lg: "1rem", xl: "1rem" },
+        paddingLeft: { xs: "0", sm: "0", md: "0", lg: "1rem", xl: "1rem" },
       }}>
         <StyledImage src={imageSrc} alt="Content Image" />
       </StyledImageContainer>
