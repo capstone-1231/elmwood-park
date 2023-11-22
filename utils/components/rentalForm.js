@@ -237,7 +237,7 @@ const RentalForm = () => {
             display: 'flex',
             flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" },
             justifyContent: 'center',
-            width: '100%'
+            width: '100%',
           }}>
           <Button
             variant={formData.spaceType === 'Den' ? 'contained' : 'outlined'}
@@ -248,11 +248,13 @@ const RentalForm = () => {
               padding: '0.5rem 1rem',
               width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
               bgcolor: formData.spaceType === 'Den' ? '#50891e' : '#FFFFFF',
-              border: '1px solid #302400',
               fontSize: '0.8rem',
               '&:hover': {
                 bgcolor: '#50891e',
                 color: '#FFFFFF'
+              },
+              '&.MuiButton-root': {
+                border: '1px solid #302400',
               },
             }}
           >
@@ -267,11 +269,13 @@ const RentalForm = () => {
               padding: '0.5rem 1rem',
               width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
               bgcolor: formData.spaceType === 'Board Room' ? '#50891e' : '#FFFFFF',
-              border: '1px solid #302400',
               fontSize: '0.8rem',
               '&:hover': {
                 bgcolor: '#50891e',
                 color: '#FFFFFF'
+              },
+              '&.MuiButton-root': {
+                border: '1px solid #302400',
               },
             }}
           >
@@ -286,11 +290,13 @@ const RentalForm = () => {
               padding: '0.5rem 1rem',
               width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
               bgcolor: formData.spaceType === 'Green Space' ? '#50891e' : '#FFFFFF',
-              border: '1px solid #302400',
               fontSize: '0.8rem',
               '&:hover': {
                 bgcolor: '#50891e',
                 color: '#FFFFFF'
+              },
+              '&.MuiButton-root': {
+                border: '1px solid #302400',
               },
             }}
           >
@@ -305,11 +311,13 @@ const RentalForm = () => {
               padding: '0.5rem 1rem',
               width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
               bgcolor: formData.spaceType === 'Den & Green Space' ? '#50891e' : '#FFFFFF',
-              border: '1px solid #302400',
               fontSize: '0.8rem',
               '&:hover': {
                 bgcolor: '#50891e',
                 color: '#FFFFFF'
+              },
+              '&.MuiButton-root': {
+                border: '1px solid #302400',
               },
             }}
           >
@@ -324,11 +332,13 @@ const RentalForm = () => {
               padding: '0.5rem 1rem',
               width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
               bgcolor: formData.spaceType === 'Board & Green Space' ? '#50891e' : '#FFFFFF',
-              border: '1px solid #302400',
               fontSize: '0.8rem',
               '&:hover': {
                 bgcolor: '#50891e',
                 color: '#FFFFFF'
+              },
+              '&.MuiButton-root': {
+                border: '1px solid #302400',
               },
             }}
           >

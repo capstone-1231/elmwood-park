@@ -8,7 +8,7 @@ import ListItem from '@mui/material/ListItem';
 
 const StyledContainer = styled(Container)({
   display: 'flex',
-  padding: '4rem',
+  padding: '2rem',
   justifyContent: 'center',
   alignContent: 'center',
   margin: '1rem auto',
@@ -27,7 +27,7 @@ const StyledImage = styled('img')({
   width: '100%',
 });
 
-const ContentAreaImageRightBulletedList = ({ imageSrc, listItem1, listItem2, listItem3, listItem4, listItem5, listItem6, listItem7, listItem8 }) => {
+const ContentAreaImageRightBulletedList = ({ imageSrc, listItem1, listItem2, listItem3, listItem4, listItem5, listItem6, listItem7, listItem8, listItem9, listItem10, listItem11 }) => {
   return (
     <StyledContainer sx={{ 
       flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" }
@@ -39,29 +39,38 @@ const ContentAreaImageRightBulletedList = ({ imageSrc, listItem1, listItem2, lis
          <List sx={{
             listStyleType: 'disc'
          }}>
-              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item' }}>
+              <ListItem variant="body" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', }}>
                 {listItem1}
               </ListItem>
-              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
+              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro' }}>
                 {listItem2}
               </ListItem>
-              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
+              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro' }}>
                 {listItem3}
               </ListItem>
-              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
+              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro' }}>
                 {listItem4}
               </ListItem>
-              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
+              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro' }}>
                 {listItem5}
               </ListItem>
-              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
+              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro' }}>
                 {listItem6}
               </ListItem>
-              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
+              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro' }}>
                 {listItem7}
               </ListItem>
-              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
+              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro' }}>
                 {listItem8}
+              </ListItem>
+              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro' }}>
+                {listItem9}
+              </ListItem>
+              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro' }}>
+                {listItem10}
+              </ListItem>
+              <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro' }}>
+                {listItem11}
               </ListItem>
           </List>
       </Box>

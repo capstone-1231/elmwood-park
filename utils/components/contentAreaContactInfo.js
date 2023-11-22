@@ -35,11 +35,11 @@ const ContactInfo = ({ heading, phone, address, email, facebook }) => {
     <StyledContainer sx={{ 
       flexDirection: 'column',
     }}>
-        <ElmwoodIconFlex>
+        <ElmwoodIconFlex sx={{ marginTop: '2rem' }}>
           <Typography variant="h2" component="h2" gutterBottom>
             {heading}
           </Typography>
-          <IconImage src="tree-icon-left.png" alt="Elmwood Tree Icon" />
+          <IconImage sx={{ display: { xs: "none", sm: "none", md: "inherit", lg: "inherit", xl: "inherit" }, }} src="tree-icon-left.png" alt="Elmwood Tree Icon" />
         </ElmwoodIconFlex>
         <IconFlex>
             <PhoneIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }} />
