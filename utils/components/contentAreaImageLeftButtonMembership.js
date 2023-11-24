@@ -62,18 +62,22 @@ const ContentAreaImageLeftButtonMembership = ({ imageSrc, heading, bodyText1, bo
           </Typography>
           <IconImage sx={{ display: { xs: "none", sm: "none", md: "inherit", lg: "inherit", xl: "inherit" }, }} src="tree-icon-left.png" alt="Elmwood Tree Icon" />
         </ElmwoodIconFlex>
+        {bodyText1 &&
         <Typography variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
           {bodyText1}
-        </Typography>
+        </Typography>}
+        {bodyText2 &&
         <Typography variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
           {bodyText2}
-        </Typography>
+        </Typography>}
+        {bodyText3 &&
         <Typography variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
           {bodyText3}
-        </Typography>
+        </Typography>}
+        {bodyText4 &&
         <Typography variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0' }}>
           {bodyText4}
-        </Typography>
+        </Typography>}
         <Box display="block">
         <a href={buttonLink} target="_blank">
           <ReadMoreButton variant="contained" color="primary" sx={{
