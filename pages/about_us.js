@@ -26,13 +26,13 @@ export default function Page() {
       </header>
       <main>
         <ContentWithImageRight
-          imageSrc="ElmwoodCommunityPark.webp"
+          imageSrc="ElmwoodBoundries.webp"
           heading="About Us"
           bodyText1="Elmwood Park Community League is a small community league located in the Elmwood Park. Elmwood Park has been an integral part within the community, hosting seasonal events and get-togethers for all individuals. Although small, Elmwood Park continues to grow and expand its projects and outreach. These include events like Walk Your Block, Volunteer Opportunities as-well as the planting of Elm Tree all around the community for the Veterans who live in the community."
           bodyText2="Recently, Elmwood Park has renovated and completed its newest Den, which is also available for rental. Furthermore, the Community Garden has also undergone renovations and expanded into a much larger plot allowing for additional community members to come and reserve their garden plot!"
         />
         <ContentWithImageLeftButton
-          imageSrc="ElmwoodBoundries.webp"
+          imageSrc="./img/Law.webp"
           heading="Current Bylaws"
           bodyText1="These bylaws were assumed from a template provided by the Edmonton Federation of Community Leagues and edited to suit Elmwood Park Community League. A vote was held at the AGM on September 26th, 2018 and the new bylaws were adopted."
           bodyText2="Elmwood Park Community League prides itself on these Bylaws introduced by the Edmonton Federation of the Community Leagues."
