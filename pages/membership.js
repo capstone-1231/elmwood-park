@@ -5,7 +5,8 @@ import FooterNav from '@/utils/components/footer';
 import Typography from '@mui/material/Typography';
 
 import ContentAreaImageRightBulletedList from '@/utils/components/contentAreaImageRightBulletedList';
-import HeadingWithTextBelow from '@/utils/components/headingWithTextBelow';
+import HeadingWithTextBelowContained from '@/utils/components/headingWithTextBelowContained';
+import ContentAreaImageLeftButtonMembership from '@/utils/components/contentAreaImageLeftButtonMembership';
 
 export default function Page() {
   return (
@@ -19,10 +20,9 @@ export default function Page() {
       <Navbar />
       </header>
       <main>
-      <HeadingWithTextBelow
+      <HeadingWithTextBelowContained
         heading="Membership"
-        paragraph1="While our Community League can be enjoyed completely free by anyone, our Membership gives Elmwood League residents some bonus features! These features give Elmwood residents many additional
-        perks like discounts with our affiliates, larger community garden plot space, reduced rent fees on our rented spaces, and much more!"
+        paragraph1="While our Community League can be enjoyed completely free by anyone, our Membership gives Elmwood League residents some bonus features! These features give Elmwood residents many additional perks like discounts with our affiliates, larger community garden plot space, reduced rent fees on our rented spaces, and much more!"
       />
       <ContentAreaImageRightBulletedList
         imageSrc="ElmwoodCommunityPark.webp"
@@ -37,6 +37,13 @@ export default function Page() {
         listItem9="Eligible to purchase an associate membership at other community leagues and can take advantage of the programs and free swim times that those leagues offer."
         listItem10="Sports team registration (offered through various leagues)."
         listItem11="Vote at our league's Annual General Meeting and/or run for the league board."
+      />
+      <ContentAreaImageLeftButtonMembership
+        imageSrc="passion-led-us-here.webp"
+        heading="Membership Purchasing"
+        bodyText1="Purchasing a membership with the Elmwood Park Community League (EPCL) is a gateway to becoming an active participant in one of Edmonton's vibrant and tightly-knit communities. EPCL membership offers numerous benefits that not only enrich your personal life but also contribute to the overall well-being of the neighborhood. Here, we'll explore why investing in an EPCL membership is a valuable choice."
+        buttonLink="https://efcl.org/membership-purchase/"
+        buttonText="Get Membership"
       />
       </main>
       <footer>
