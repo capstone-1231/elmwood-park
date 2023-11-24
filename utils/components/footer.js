@@ -89,7 +89,7 @@ const FooterNav = () => {
             />
             </a>
             <a href='/files/EPCL_PrivacyPolicy.txt' target="_blank">
-            <PolicyIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 }, textDecoration: "none" }} 
+              <PolicyIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 }, textDecoration: "none" }} 
             />
             </a>
           </SocialIconContainer>
