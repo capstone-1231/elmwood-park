@@ -80,15 +80,15 @@ const FooterNav = () => {
             flexDirection: { xs: "row", sm: "row", md: "row", lg: "column", xl: "column" },
             padding: { xs: "2rem 0 0 0", sm: "2rem 0 0 0", md: "2rem 0 0 0", lg: "inherit", xl: "inherit" }
           }}>
-            <a href='https://www.facebook.com/ElmwoodParkCL/'>
+            <a href='https://www.facebook.com/ElmwoodParkCL/' alt="Facebook Link">
             <FacebookRoundedIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }} 
             />
             </a>
-            <a href='/files/EPCL_Copyright.txt' target="_blank">
+            <a href='/files/EPCL_Copyright.txt' target="_blank" alt="Copyright Link">
             <CopyrightIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 }, textDecoration: "none" }} 
             />
             </a>
-            <a href='/files/EPCL_PrivacyPolicy.txt' target="_blank">
+            <a href='/files/EPCL_PrivacyPolicy.txt' target="_blank" alt="Privacy Policy Link">
               <PolicyIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 }, textDecoration: "none" }} 
             />
             </a>

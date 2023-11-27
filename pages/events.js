@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
 
-import Typography from '@mui/material/Typography';
+import Container from '@mui/material/Container'
 
 import GoogleCalendar from '@/utils/components/googleCalendar';
 import ContentWithImageRight2 from '@/utils/components/contentAreaImageRight2';
@@ -33,7 +33,9 @@ export default function Page() {
         
         Contact us at epcl.info @ shaw.ca or check us out on Facebook to see how you can help make a difference!"
         />
-        <GoogleCalendar />
+        <Container>
+          <GoogleCalendar />
+        </Container>
       </main>
       <footer>
         <FooterNav />
