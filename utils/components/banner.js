@@ -13,9 +13,13 @@ const ContentContainer = styled('div')({
   minHeight: '100%',
 });
 
-const DesktopDisplayContainer = styled('div')();
+const DesktopDisplayContainer = styled('div')({
+  display: 'inherit'
+});
 
-const MobileDisplayContainer = styled('div')();
+const MobileDisplayContainer = styled('div')({
+  display: 'inherit'
+});
 
 const HeroBanner = () => {
   return (
@@ -53,6 +57,7 @@ const HeroBanner = () => {
             <Typography variant='body1' color="text.secondary" sx={{ padding: '2rem' }}>
               Come explore your backyard!
             </Typography>
+            <a href="/membership" target="_blank">
             <Button
               type="submit"
               variant="contained"
@@ -69,6 +74,7 @@ const HeroBanner = () => {
             >
               Join us today!
             </Button>
+            </a>
           </ContentContainer>
         </Box>
       </DesktopDisplayContainer>
@@ -110,6 +116,7 @@ const HeroBanner = () => {
             <Typography variant='body1' color="text.secondary" sx={{ padding: '2rem' }}>
               Come explore your backyard!
             </Typography>
+            <a href="/membership">
             <Button
               type="submit"
               variant="contained"
@@ -125,6 +132,7 @@ const HeroBanner = () => {
             >
               Join us today!
             </Button>
+            </a>
           </ContentContainer>
         </Box>
       </MobileDisplayContainer>
