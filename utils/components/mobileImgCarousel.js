@@ -44,7 +44,6 @@ export default function MobileImgCarousel() {
                         src={item.img}
                         alt={item.title}
                         style={{ width: '100%', height: 'auto' }}
-                        loading='lazy'
                     />
                 ))}
             </Carousel>
