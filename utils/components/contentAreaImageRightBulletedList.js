@@ -40,39 +40,50 @@ const ContentAreaImageRightBulletedList = ({ imageSrc, listItem1, listItem2, lis
             padding: '0 1rem',
             
          }}>
+              {listItem1 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem1}
-              </ListItem>
+              </ListItem>)}
+              {listItem2 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem2}
-              </ListItem>
+              </ListItem>)}
+              {listItem3 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem3}
-              </ListItem>
+              </ListItem>)}
+              {listItem4 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem4}
-              </ListItem>
+              </ListItem>)}
+              {listItem5 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem5}
-              </ListItem>
+              </ListItem>)}
+              {listItem6 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem6}
-              </ListItem>
+              </ListItem>)}
+              {listItem7 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem7}
-              </ListItem>
+              </ListItem>)}
+              {listItem8 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem8}
-              </ListItem>
+              </ListItem>)}
+              {listItem9 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem9}
-              </ListItem>
+              </ListItem>)}
+              {listItem10 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem10}
-              </ListItem>
+              </ListItem>)}
+              {listItem11 && (
               <ListItem variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', display: 'list-item', fontFamily: 'Be Vietnam Pro', color: '#816719' }}>
                 {listItem11}
-              </ListItem>
+              </ListItem>)}
           </List>
       </Box>
       <StyledImageContainer sx={{

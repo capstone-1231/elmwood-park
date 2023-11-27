@@ -106,7 +106,7 @@ const RentalForm = () => {
           margin: '0 auto',
           width: { xs: '90%', sm: '90%', md: '90%', lg: '40%', xl: '40%' },
           gap: '1rem',
-          paddingBottom: '1rem',
+          paddingBottom: '3rem',
         }}
       >
         <NameFlexContainer sx={{ flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" } }}>
@@ -246,7 +246,7 @@ const RentalForm = () => {
               flexGrow: 1,
               color: formData.spaceType === 'Den' ? '#FFFFFF' : '#302400',
               padding: '0.5rem 1rem',
-              width: { xs: "100%", sm: "100%", md: "100%", lg: "20%", xl: "20%" },
+              width: { xs: "100%", sm: "99.7%", md: "100%", lg: "20%", xl: "20%" },
               bgcolor: formData.spaceType === 'Den' ? '#50891e' : '#FFFFFF',
               fontSize: '0.8rem',
               '&:hover': {
@@ -255,6 +255,7 @@ const RentalForm = () => {
               },
               '&.MuiButton-root': {
                 border: '1px solid #302400',
+                borderRadius: '0'
               },
             }}
           >
@@ -339,6 +340,7 @@ const RentalForm = () => {
               },
               '&.MuiButton-root': {
                 border: '1px solid #302400',
+                borderRadius: '0'
               },
             }}
           >
