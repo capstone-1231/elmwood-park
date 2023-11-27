@@ -12,7 +12,7 @@ const StyledContainer = styled(Container)({
 const ElmwoodIconFlex = styled('div')({
   display: 'flex',
   justifyContent: 'start',
-  alignItems: 'start',
+  alignItems: 'center',
 })
 
 const IconImage = styled('img')({
