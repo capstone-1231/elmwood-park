@@ -34,22 +34,22 @@ const HeadingWithTextBelowContained = ({ heading, paragraph1, paragraph2, paragr
           <IconImage sx={{ display: { xs: "none", sm: "none", md: "inherit", lg: "inherit", xl: "inherit" }, }} src="tree-icon-left.png" alt="Elmwood Tree Icon" />
         </ElmwoodIconFlex>
         {paragraph1 && (
-          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
+          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0', maxWidth: "46ch" }}>
             {paragraph1}
           </Typography>
         )}
         {paragraph2 && (
-          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
+          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0', maxWidth: "46ch" }}>
             {paragraph2}
           </Typography>
         )}
         {paragraph3 && (
-          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
+          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0', maxWidth: "46ch" }}>
             {paragraph3}
           </Typography>
         )}
         {paragraph4 && (
-          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0' }}>
+          <Typography variant="body1" color="textSecondary" sx={{ padding: '1rem 0', maxWidth: "46ch" }}>
             {paragraph4}
           </Typography>
         )}
