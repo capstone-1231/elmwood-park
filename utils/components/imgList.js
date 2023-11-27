@@ -102,7 +102,6 @@ export default function ImgList() {
             src={item.img}
             alt={item.title}
             style={{ width: '100%', height: '60%', padding: '0 auto', }}
-            loading='lazy'
           />
         ))}
       </Carousel>
