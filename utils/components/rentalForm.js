@@ -106,7 +106,7 @@ const RentalForm = () => {
           margin: '0 auto',
           width: { xs: '90%', sm: '90%', md: '90%', lg: '40%', xl: '40%' },
           gap: '1rem',
-          paddingBottom: '3rem',
+          paddingBottom: '8rem',
         }}
       >
         <NameFlexContainer sx={{ flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" } }}>
