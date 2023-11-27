@@ -23,7 +23,7 @@ export default function Page() {
         <ContentWithImageRight2
         imageSrc="./img/community-garden.webp"
         heading="Events"
-        bodyText="While our Community League can be enjoyed completely free by anyone, our Membership gives Elmwood League residents some bonus features! These features give Elmwood residents many additional
+        bodyText1="While our Community League can be enjoyed completely free by anyone, our Membership gives Elmwood League residents some bonus features! These features give Elmwood residents many additional
         perks like discounts with our affiliates, larger community garden plot space, reduced rent fees on our rented spaces, and much more!"
 
         heading2="Local Events"
