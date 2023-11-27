@@ -1,5 +1,8 @@
 import '../styles/global.css';
 
+import '@fontsource/libre-baskerville'
+import '@fontsource/be-vietnam-pro'
+
 import { ThemeProvider } from '@mui/material';
 import { theme } from '../utils/theme/theme-config.js';
 import CssBaseline from '@mui/material/CssBaseline';
