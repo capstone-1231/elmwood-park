@@ -57,7 +57,7 @@ const ContentWithImageRight2 = ({ imageSrc, heading, heading2, bodyText1, bodyTe
           {bodyText1}
         </Typography>
         <ElmwoodIconFlex>
-          <Typography variant="h3" component="h2" gutterBottom>
+          <Typography variant="h3" component="h3" sx={{fontWeight: '700'}} gutterBottom>
             {heading2}
           </Typography>
           <IconImage sx={{ display: { xs: "none", sm: "none", md: "inherit", lg: "inherit", xl: "inherit" }, }} src="tree-icon-left.png" alt="Elmwood Tree Icon" />
