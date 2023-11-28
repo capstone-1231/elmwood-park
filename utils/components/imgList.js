@@ -93,15 +93,14 @@ export default function ImgList() {
       display: { xs: "none", sm: "none", md: "none", lg: "block", xl: "block" },
       alignContent: 'center',
       justifyContent: 'center',
-      padding: '1.5rem 0'
     }}>
-      <Carousel sx={{ maxWidth: '50%', margin: '0 auto' }}>
+      <Carousel>
         {itemData.map((item) => (
           <img
             key={item.img}
             src={item.img}
             alt={item.title}
-            style={{ width: '100%', height: '60%', padding: '0 auto', }}
+            style={{ width: '100%', height: '60%'}}
           />
         ))}
       </Carousel>

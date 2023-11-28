@@ -53,6 +53,7 @@ export default function Page() {
         buttonLink="/contact_us"
         buttonText="Book Now!"
       />
+      <Container sx={{display: "flex", alignItems: "center", padding: 'none'}}>
       <HeadingWithTextBelowContained
         heading="Hall Rental"
         paragraph1="Our Board Room is perfect for meetings of any sort or craft nights.  The rate for our Board Room is $50 for the day for members or $75 for the day for non members."
@@ -61,6 +62,7 @@ export default function Page() {
         paragraph4="Alternatively, we also offer our Board Room or Den with the Green Space at a rate of $120 for members or $150 for non members. A DAMAGE DEPOSIT IS REQUIRED AND ALL RENTALS COME WITH WASHROOM USE."
       />
       <ImgList/>
+      </Container>
       <MobileImgCarousel/>
       <RentalForm id="rental" />
       </main>

@@ -18,7 +18,7 @@ export default function homeCards() {
             justifyContent: 'space-between',
             display: { xs: "none", sm: "none", md: "none", lg: "flex", xl: "flex" }
         }}>
-            <Card sx={{ display: 'flex', width: '20%', margin: 'none' }}>
+            <Card sx={{ display: 'flex', width: '23%', margin: 'none' }}>
                 <Box>
                     <CardContent sx={{ padding: '1rem' }}>
                         <Typography variant='h3'>Facebook</Typography>
@@ -37,16 +37,16 @@ export default function homeCards() {
                     </CardActions>
                 </Box>
             </Card>
-            <Card sx={{ display: 'flex', width: '20%' }}>
+            <Card sx={{ display: 'flex', width: '23%' }}>
                 <Box>
                     <CardContent sx={{ padding: '1rem' }}>
-                        <Typography variant='h3'>Volunteer Opportunities</Typography>
+                        <Typography variant='h3'>Volunteering</Typography>
                     </CardContent>
                     <CardContent sx={{ padding: '1rem' }}>
                         <Typography>Explore Opportunities at Elmwood Park.</Typography>
                     </CardContent>
                     <CardActions sx={{ padding: '1rem' }}>
-                        <Button href='/contact_us/vol' variant='contained' size='small' color="primary" disableRipple sx={{
+                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
                             borderRadius: '0.8rem',
                             ':hover, :active, :focus': {
                                 bgcolor: 'secondary.main',
@@ -56,7 +56,7 @@ export default function homeCards() {
                     </CardActions>
                 </Box>
             </Card>
-            <Card sx={{ display: 'flex', width: '20%' }}>
+            <Card sx={{ display: 'flex', width: '23%' }}>
                 <Box>
                     <CardContent sx={{ padding: '1rem' }}>
                         <Typography variant='h3'>Hall Rental's</Typography>
@@ -75,7 +75,7 @@ export default function homeCards() {
                     </CardActions>
                 </Box>
             </Card>
-            <Card sx={{ display: 'flex', width: '20%', padding: '0' }}>
+            <Card sx={{ display: 'flex', width: '23%', padding: '0' }}>
                 <Box>
                     <CardContent sx={{ padding: '1rem' }}>
                         <Typography variant='h3'>Have A Question?</Typography>
