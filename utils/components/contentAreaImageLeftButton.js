@@ -18,7 +18,7 @@ const StyledContainer = styled(Container)({
 });
 
 const StyledImageContainer = styled('div')({
-  flex: 1.5,
+  flex: 1,
   display: 'flex',
   justifyContent: 'center',
 });
