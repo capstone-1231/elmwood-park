@@ -33,9 +33,9 @@ const ContactForm = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const serviceID = 'service_8k1v5ot';
-    const userID = 'w9dPXJSZ_AucFEwRs';
-    const templateID = 'template_pwwdaf7';
+    const serviceID = 'service_3ikoxue';
+    const userID = 'HRvsR4jC6mY0r3AG9';
+    const templateID = 'template_tq1ql5r';
 
     try {
       const response = await emailjs.send(serviceID, templateID, {
@@ -196,7 +196,7 @@ const ContactForm = () => {
 
         {submitStatus === 'success' && (
           <Alert variant="body1" color="textSecondary" sx={{ padding: '0.5rem 0', color: 'green' }}>
-          Thank you for your submission!
+          Thank you for your submission! Please wait up to 1-2 business days for us to respond.
         </Alert>
         )}
 
