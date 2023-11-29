@@ -37,7 +37,8 @@ export default function Page() {
         <ContentWithImageRightTruncated 
           imageSrc="ElmwoodCommunityPark.webp"
           heading="Explore Elmwood Park"
-          bodyText="Elmwood Park Community League (EPCL) is a vibrant and active neighborhood organization located in the heart of Edmonton, Alberta, Canada. Founded with a mission to strengthen community bonds, enhance quality of life, and promote a sense of belonging among residents, EPCL has become an integral part of the Elmwood Park neighborhood. With a rich history dating back several decades, the league continues to evolve and adapt to meet the changing needs of its diverse and growing community. One of the primary functions of Elmwood Park Community League is to provide a space where residents can come together, share ideas, and collaborate on initiatives that benefit the entire neighborhood. Regular community meetings and events are organized to facilitate this engagement."
+          bodyText="
+          Elmwood Park Community League thrives amidst a bustling mix of businesses and eateries. Priscilla's Pet Emporium & Parlour delights pet owners with grooming services and supplies, while Delton Veterinarian ensures the health of local pets. Cougar Paint & Collision caters to automotive needs, and Butchers & Packers Supplies is a haven for culinary enthusiasts. Ideal Medical Centre provides essential healthcare services. For food lovers, Transit Smokehouse & BBQ offers delectable BBQ dishes, Ukraine's Kitchen brings Eastern European flavors, and Sals's Famous is renowned for its unique culinary creations, making this area a vibrant community hub."
         />
       </main>
       <footer>
