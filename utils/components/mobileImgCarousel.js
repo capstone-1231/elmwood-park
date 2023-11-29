@@ -30,14 +30,6 @@ export default function MobileImgCarousel() {
             title: 'Den',
           },
           {
-            img: './img/ElmwoodParkElectrical.webp',
-            title: 'Electrical Room',
-          },
-          {
-            img: './img/ElmwoodParkFurnace.webp',
-            title: 'Furnace Room',
-          },
-          {
             img: './img/ElmwoodParkGarden.webp',
             title: 'Garden',
           },

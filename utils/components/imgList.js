@@ -16,7 +16,6 @@ export default function ImgList() {
       img: './img/ElmwoodParkBoardRoom3.webp',
       title: 'Board Room',
     },
-  
     {
       img: './img/ElmwoodParkDen.webp',
       title: 'Den',
@@ -28,14 +27,6 @@ export default function ImgList() {
     {
       img: './img/ElmwoodParkDen3.webp',
       title: 'Den',
-    },
-    {
-      img: './img/ElmwoodParkElectrical.webp',
-      title: 'Electrical Room',
-    },
-    {
-      img: './img/ElmwoodParkFurnace.webp',
-      title: 'Furnace Room',
     },
     {
       img: './img/ElmwoodParkGarden.webp',
