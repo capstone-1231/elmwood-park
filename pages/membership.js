@@ -25,7 +25,7 @@ export default function Page() {
         paragraph1="While our Community League can be enjoyed completely free by anyone, our Membership gives Elmwood League residents some bonus features! These features give Elmwood residents many additional perks like discounts with our affiliates, larger community garden plot space, reduced rent fees on our rented spaces, and much more!"
       />
       <ContentAreaImageRightBulletedList
-        imageSrc="ElmwoodCommunityPark.webp"
+        imageSrc="img/playground-a.webp"
         listItem1="Papa John's pizza - 30% discount off all online orders. Just use the code PAULA30"
         listItem2="Cloverdale Paint - Show your card to receive a discount on all paint and 20% sundry items."
         listItem3="The University of Alberta Technology Training Center also offers a discount for computer courses. Contact the University directly for details."
