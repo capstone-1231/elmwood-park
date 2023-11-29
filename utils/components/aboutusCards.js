@@ -13,7 +13,7 @@ export default function ActionAreaCard() {
       gap: "16px",
       display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex" }
     }}>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%",marginBottom: "1.25rem" }}>
           <CardMedia
             component="img"
             height="280"
@@ -36,7 +36,7 @@ export default function ActionAreaCard() {
             </Typography>
           </CardContent>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%",marginBottom: "1.25rem"  }}>
           <CardMedia
             component="img"
             height="280"
@@ -59,7 +59,7 @@ export default function ActionAreaCard() {
             </Typography>
           </CardContent>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%",marginBottom: "1.25rem"  }}>
           <CardMedia
             component="img"
             height="280"
@@ -83,7 +83,7 @@ export default function ActionAreaCard() {
           </CardContent>
       </Card>
       {/* 2nd set of Cards */}
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%",marginBottom: "1.25rem"  }}>
           <CardMedia
             component="img"
             height="280"
@@ -106,7 +106,7 @@ export default function ActionAreaCard() {
             </Typography>
           </CardContent>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%",marginBottom: "1.25rem"  }}>
           <CardMedia
             component="img"
             height="280"
@@ -129,7 +129,7 @@ export default function ActionAreaCard() {
             </Typography>
           </CardContent>
       </Card>
-      <Card sx={{ maxWidth: "100%", width: "30%" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%",marginBottom: "1.25rem"  }}>
           <CardMedia
             component="img"
             height="280"
@@ -153,7 +153,7 @@ export default function ActionAreaCard() {
           </CardContent>
       </Card>
       {/* 3nd set of final card */}
-      <Card sx={{ maxWidth: "100%", width: "30%", marginBottom: "1.5rem" }}>
+      <Card sx={{ maxWidth: "100%", width: "30%", marginBottom: "1.25rem" }}>
           <CardMedia
             component="img"
             height="280"

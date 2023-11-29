@@ -26,7 +26,7 @@ export default function Page() {
           <Typography variant="h1">404</Typography>
           <Typography variant="h5">Page Not Found</Typography>
           <Typography variant="body1">The page you are looking for might be in another Park.</Typography>
-          <Typography variant="body1">Before you leave help Dave the snake.</Typography>
+          <Typography variant="body1">Before you leave help Dave the garden snake.</Typography>
           <Link href="/">
             <Button variant="contained" color="primary" size="large" style={{ marginTop: 20 }}>
               Take Me Home!
