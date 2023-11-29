@@ -41,7 +41,7 @@ export default function Page() {
         listItem6="Playground"
         listItem7="Spray deck for those hot summer days"
         listItem8="Baseball diamond"
-        listItem9="Park like greenspace!"
+        listItem9="Park-like greenspace"
       />
       <ContentAreaImageLeftButtonMembership
         imageSrc="/img/ElmwoodParkGarden2.webp"
@@ -56,14 +56,20 @@ export default function Page() {
       <Container sx={{display: "flex", alignItems: "center", padding: 'none'}}>
       <HeadingWithTextBelowContained
         heading="Hall Rental"
-        paragraph1="Our Board Room is perfect for meetings of any sort or craft nights.  The rate for our Board Room is $50 for the day for members or $75 for the day for non members."
-        paragraph2="The Den is a more laid back room, great for card games, small birthday parties or a ladies night. The rate for the Den is $50 for the day for members or $75 for the day for non members."
-        paragraph3="The Landscaped Green Space is a small slice of peace and quiet. Our freshly landscaped green space is ideal for any kind of event, large or small. Complete with an outdoor kitchen and pergola! The rate for the Landscaped Green Space is $50 for the day for members or $75 for the day for non members."
+        paragraph1="Our Board Room is perfect for meetings or craft nights.  The rate for our Board Room is $50 for the day for members or $75 for the day for non-members."
+        paragraph2="The Den is a more laid back room, great for card games, small birthday parties or a ladies night. The rate for the Den is $50 for the day for members or $75 for the day for non-members."
+        paragraph3="The Landscaped Green Space is a small slice of peace and quiet. Our freshly landscaped green space is ideal for any kind of event, large or small. Complete with an outdoor kitchen and pergola! The rate for the Landscaped Green Space is $50 for the day for members or $75 for the day for non-members."
         paragraph4="Alternatively, we also offer our Board Room or Den with the Green Space at a rate of $120 for members or $150 for non members. A DAMAGE DEPOSIT IS REQUIRED AND ALL RENTALS COME WITH WASHROOM USE."
       />
       <ImgList/>
       </Container>
       <MobileImgCarousel/>
+      <Container sx={{marginBottom:"1rem"}}>
+        <HeadingWithTextBelowContained
+        heading="Rental Form"
+        paragraph1="Please use the rental form below for all rentals options. Please ensure to fill out all * fields! We are excited to see you soon!"
+        />
+      </Container>
       <RentalForm id="rental" />
       </main>
       <footer>

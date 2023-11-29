@@ -39,7 +39,7 @@ const ContactUsContentContainer = () => {
             heading="Contact Information"
             phone="780-479-1035"
             address="12505-75 St, Edmonton, AB, T5B 4K8"
-            email="ElmwoodParkCl.info@gmail.com"
+            email="epcl.info@shaw.ca"
             facebook="Elmwood Park Community League"
         />
     </ContentContainer>
