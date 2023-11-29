@@ -16,7 +16,6 @@ export default function ImgList() {
       img: './img/ElmwoodParkBoardRoom3.webp',
       title: 'Board Room',
     },
-  
     {
       img: './img/ElmwoodParkDen.webp',
       title: 'Den',
