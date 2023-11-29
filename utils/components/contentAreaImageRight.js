@@ -45,7 +45,7 @@ const ContentWithImageRight = ({ imageSrc, heading, bodyText1, bodyText2, bodyTe
     }}>
       <Box sx={{ 
         flex: 1,
-        padding: { xs: "2rem 0", sm: "2rem 0", md: "2rem 0", lg: "0 1rem", xl: "0 1rem" }
+        padding: { xs: "2rem 0", sm: "2rem 0", md: "2rem 0", lg: "0 2rem 0 0", xl: "0 2rem 0 0" }
       }}>
         <ElmwoodIconFlex>
           <Typography variant="h2" component="h2" gutterBottom>
