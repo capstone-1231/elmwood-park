@@ -12,7 +12,7 @@ const IconImage = styled('img')({
 const TopHeading = ({ heading }) => {
     return (
         <Container sx={{ marginTop: '4rem', display: 'flex', alignItems: 'center' }}>
-            <Typography variant="h1" component="h2" gutterBottom>
+            <Typography variant="h1" component="h1" gutterBottom>
                 {heading}
             </Typography>
             <IconImage sx={{ display: { xs: "none", sm: "none", md: "inherit", lg: "inherit", xl: "inherit" }, }} src="tree-icon-left.png" alt="Elmwood Tree Icon" />
