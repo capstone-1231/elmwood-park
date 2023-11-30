@@ -46,7 +46,7 @@ export default function CardCarousel() {
                             <Typography variant='h3'>Volunteer Opportunities</Typography>
                         </CardContent>
                         <CardContent sx={{ padding: '1rem' }}>
-                            <Typography>Explore Opportunities at Elmwood Park.</Typography>
+                            <Typography>Explore opportunities at Elmwood Park.</Typography>
                         </CardContent>
                         <CardActions sx={{ padding: '1rem' }}>
                             <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
@@ -62,10 +62,10 @@ export default function CardCarousel() {
                 <Card sx={{ width: '100%', display: 'flex', alignItems: 'center', height: '15rem' }}>
                     <Box>
                         <CardContent sx={{ padding: '1rem' }}>
-                            <Typography variant='h3'>Hall Rental's</Typography>
+                            <Typography variant='h3'>Hall Rentals</Typography>
                         </CardContent>
                         <CardContent sx={{ padding: '1rem' }}>
-                            <Typography>Discover rentalable spaces at Elmwood Park.</Typography>
+                            <Typography>Discover rentable spaces at Elmwood Park.</Typography>
                         </CardContent>
                         <CardActions sx={{ padding: '1rem' }}>
                             <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
@@ -84,7 +84,7 @@ export default function CardCarousel() {
                             <Typography variant='h3'>Have A Question?</Typography>
                         </CardContent>
                         <CardContent sx={{ padding: '1rem' }}>
-                            <Typography>Reach out to us for any questions and inquires.</Typography>
+                            <Typography>Reach out to us for any questions or inquires.</Typography>
                         </CardContent>
                         <CardActions sx={{ padding: '1rem' }}>
                             <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
