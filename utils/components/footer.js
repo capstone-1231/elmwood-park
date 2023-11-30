@@ -100,15 +100,12 @@ const FooterNav = () => {
             <Link href='/' color="inherit" disableRipple sx={{
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
-                color: '#ffffff',
-                borderRadius: '5rem'
-              },
+                color: '#ffffff',              },
             }}>Home</Link>
             <Link href='/about_us' color="inherit" disableRipple sx={{
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',
-                borderRadius: '5rem',
               },
             }}>About Us</Link>
           </LinkContainer>
@@ -119,14 +116,12 @@ const FooterNav = () => {
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',
-                borderRadius: '5rem',
               },
             }}>Membership</Link>
             <Link href='/amenities' color="inherit" disableRipple sx={{
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',
-                borderRadius: '5rem',
               },
             }}>Amenities</Link>
           </LinkContainer>
@@ -137,14 +132,12 @@ const FooterNav = () => {
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',
-                borderRadius: '5rem',
               },
             }}>Events</Link>
             <Link href='contact_us' color="inherit" disableRipple sx={{
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',
-                borderRadius: '5rem',
               },
             }}>Contact Us</Link>
           </LinkContainer>
