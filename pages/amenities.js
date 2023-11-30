@@ -11,6 +11,7 @@ import MobileImgCarousel from '@/utils/components/mobileImgCarousel';
 import HeadingWithTextBelowContained from '@/utils/components/headingWithTextBelowContained';
 import ContentAreaImageRightBulletedList from '@/utils/components/contentAreaImageRightBulletedList';
 import ContentAreaImageLeftButtonMembership from '@/utils/components/contentAreaImageLeftButtonMembership';
+import TopHeading from '@/utils/components/topHeading';
 
 export default function Page() {
   return (
@@ -24,8 +25,11 @@ export default function Page() {
       <Navbar />
       </header>
       <main>
+      <TopHeading
+          heading="Amenities"
+      />
       <HeadingWithTextBelowContained
-        heading="Amenities"
+        heading="Our Community Center"
         paragraph1="Elmwood Park Community League takes pride in offering a 
         diverse range of amenities that cater to the needs and interests 
         of its residents. At the heart of the community, you'll find a well maintained and inviting community center, which serves as a hub 
@@ -53,7 +57,7 @@ export default function Page() {
         buttonLink="/contact_us"
         buttonText="Book Now!"
       />
-      <Container sx={{display: "flex", alignItems: "center", padding: 'none'}}>
+      <Container sx={{display: "flex", alignItems: "center", margin: '0 auto', justifyContent: 'space-between', '& .MuiContainer-root': { padding: '0' },}}>
       <HeadingWithTextBelowContained
         heading="Hall Rental"
         paragraph1="Our Board Room is perfect for meetings or craft nights.  The rate for our Board Room is $50 for the day for members or $75 for the day for non-members."
@@ -64,12 +68,10 @@ export default function Page() {
       <ImgList/>
       </Container>
       <MobileImgCarousel/>
-      <Container sx={{marginBottom:"1rem"}}>
-        <HeadingWithTextBelowContained
+      <HeadingWithTextBelowContained
         heading="Rental Form"
         paragraph1="Please use the rental form below for all rentals options. Please ensure to fill out all * fields! We are excited to see you soon!"
-        />
-      </Container>
+      />
       <RentalForm id="rental" />
       </main>
       <footer>

@@ -27,7 +27,7 @@ const HeadingWithTextBelowContained = ({ heading, paragraph1, paragraph2, paragr
       flexDirection: "column",
       width: { xs: "100%", sm: "100%", md: "100%", lg: "100%", xl: "100%" }
     }}>
-         <ElmwoodIconFlex sx={{ marginTop: '3rem', }}>
+         <ElmwoodIconFlex sx={{ marginTop: '4rem', }}>
           <Typography variant="h2" component="h2" gutterBottom>
             {heading}
           </Typography>

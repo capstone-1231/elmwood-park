@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import ContentAreaImageRightBulletedList from '@/utils/components/contentAreaImageRightBulletedList';
 import HeadingWithTextBelowContained from '@/utils/components/headingWithTextBelowContained';
 import ContentAreaImageLeftButtonMembership from '@/utils/components/contentAreaImageLeftButtonMembership';
+import TopHeading from '@/utils/components/topHeading';
 
 export default function Page() {
   return (
@@ -20,8 +21,11 @@ export default function Page() {
       <Navbar />
       </header>
       <main>
+      <TopHeading
+          heading="Membership"
+      />
       <HeadingWithTextBelowContained
-        heading="Membership"
+        heading="Member Perks"
         paragraph1="While our Community League can be enjoyed completely free by anyone, our Membership gives Elmwood League residents some bonus features! These features give Elmwood residents many additional perks like discounts with our affiliates, larger community garden plot space, reduced rent fees on our rented spaces, and much more!"
       />
       <ContentAreaImageRightBulletedList

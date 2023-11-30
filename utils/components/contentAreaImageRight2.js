@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 
 const StyledContainer = styled(Container)({
   display: 'flex',
-  padding: '4rem',
+  padding: '3rem',
   justifyContent: 'center',
   alignContent: 'center',
   margin: '1rem auto',
@@ -45,7 +45,7 @@ const ContentWithImageRight2 = ({ imageSrc, heading, heading2, bodyText1, bodyTe
     }}>
       <Box sx={{ 
         flex: 1,
-        padding: { xs: "2rem 0", sm: "2rem 0", md: "2rem 0", lg: "0 1rem", xl: "0 1rem" }
+        padding: { xs: "2rem 0", sm: "2rem 0", md: "2rem 0", lg: "0 2rem 0 0", xl: "0 2rem 0 0" }
       }}>
         <ElmwoodIconFlex>
           <Typography variant="h2" component="h2" gutterBottom>
@@ -57,7 +57,7 @@ const ContentWithImageRight2 = ({ imageSrc, heading, heading2, bodyText1, bodyTe
           {bodyText1}
         </Typography>
         <ElmwoodIconFlex>
-          <Typography variant="h3" component="h3" sx={{fontWeight: '700'}} gutterBottom>
+          <Typography variant="h3" component="h3" sx={{fontWeight: '700', padding: '0.5rem 0'}} gutterBottom>
             {heading2}
           </Typography>
           <IconImage sx={{ display: { xs: "none", sm: "none", md: "inherit", lg: "inherit", xl: "inherit" }, }} src="tree-icon-left.png" alt="Elmwood Tree Icon" />

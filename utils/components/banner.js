@@ -51,7 +51,7 @@ const HeroBanner = () => {
           }}
         >
           <ContentContainer>
-            <Typography variant='h2' color="text.primary">
+            <Typography variant='h1' color="text.primary">
               Elmwood Park Community League
             </Typography>
             <Typography variant='body1' color="text.secondary" sx={{ padding: '2rem' }}>

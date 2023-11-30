@@ -5,10 +5,22 @@ import { styled } from '@mui/system';
 import Container from '@mui/material/Container';
 import emailjs from 'emailjs-com';
 import Alert from '@mui/material/Alert';
+import Typography from '@mui/material/Typography';
 
 const NameFlexContainer = styled('div')({
   display: 'flex',
   gap: '1rem',
+});
+
+const IconImage = styled('img')({
+  marginLeft: '1rem',
+  width: '2rem',
+  paddingBottom: '1rem'
+});
+
+const ElmwoodIconFlex = styled('div')({
+  display: 'flex',
+  alignItems: 'center'
 });
 
 const ContactForm = () => {
@@ -69,10 +81,17 @@ const ContactForm = () => {
           display: 'flex',
           flexDirection: 'column',
           margin: '0 auto',
-          width: { xs: '90%', sm: '90%', md: '90%', lg: '40%', xl: '40%' },
+          width: '100%',
           gap: '1rem',
+          paddingTop: '2rem'
         }}
       >
+       <ElmwoodIconFlex sx={{ padding: '2rem 0 1rem 0' }}>
+            <Typography variant="h2" component="h2" gutterBottom>
+                General Inquiries Form
+            </Typography>
+            <IconImage sx={{ display: { xs: "none", sm: "none", md: "inherit", lg: "inherit", xl: "inherit" }, }} src="tree-icon-left.png" alt="Elmwood Tree Icon" />
+        </ElmwoodIconFlex>
         <NameFlexContainer sx={{ flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" } }}>
           <TextField
             sx={{

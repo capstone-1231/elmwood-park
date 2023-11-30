@@ -104,7 +104,7 @@ const RentalForm = () => {
           display: 'flex',
           flexDirection: 'column',
           margin: '0 auto',
-          width: { xs: '90%', sm: '90%', md: '90%', lg: '40%', xl: '40%' },
+          width: '100%',
           gap: '1rem',
           paddingBottom: '8rem',
         }}

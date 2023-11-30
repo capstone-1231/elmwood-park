@@ -19,6 +19,7 @@ const ContactUsContentContainer = () => {
     <Container>
     <ContentContainer sx={{
         flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" },
+        '& .MuiContainer-root': { padding: '0' },
     }}>
         <HeadingWithTextBelow
             heading="Volunteers Welcomed"

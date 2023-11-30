@@ -7,6 +7,7 @@ import Container from '@mui/material/Container'
 
 import GoogleCalendar from '@/utils/components/googleCalendar';
 import ContentWithImageRight2 from '@/utils/components/contentAreaImageRight2';
+import TopHeading from '@/utils/components/topHeading';
 
 export default function Page() {
   return (
@@ -20,9 +21,12 @@ export default function Page() {
         <Navbar />
       </header>
       <main>
+      <TopHeading
+          heading="Events"
+      />
         <ContentWithImageRight2
           imageSrc="./img/community-garden.webp"
-          heading="Events"
+          heading="Community Events"
           bodyText1="While our Community League can be enjoyed completely free by anyone, our Membership gives Elmwood League residents some bonus features! These features give Elmwood residents many additional
         perks like discounts with our affiliates, larger community garden plot space, reduced rent fees on our rented spaces, and much more!"
 

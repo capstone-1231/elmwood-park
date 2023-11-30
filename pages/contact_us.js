@@ -5,6 +5,7 @@ import FooterNav from '@/utils/components/footer';
 import ContactForm from '@/utils/components/contactform';
 import ContactUsContentContainer from '@/utils/components/contactUsContentContainer';
 import GoogleMaps from '@/utils/components/googleMaps';
+import TopHeading from '@/utils/components/topHeading';
 
 import Typography from '@mui/material/Typography';
 
@@ -20,7 +21,9 @@ export default function Page() {
       <Navbar />
       </header>
       <main>
-      <Typography variant="h2" component="h2" color="secondary" sx={{ padding: '2rem 1rem', textAlign: 'center'}} >Contact Us</Typography>
+      <TopHeading
+          heading="Contact Us"
+      />
       <ContactForm />
       <ContactUsContentContainer id="vol"/>
       <GoogleMaps/>

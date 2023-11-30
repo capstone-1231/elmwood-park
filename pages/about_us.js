@@ -11,6 +11,7 @@ import MobileCards from '@/utils/components/mobileCards';
 import ContentWithImageLeftButton from '@/utils/components/contentAreaImageLeftButton';
 import ContentWithImageRight from '@/utils/components/contentAreaImageRight';
 import MembersQuote from '@/utils/components/memberQuotesAndMems';
+import TopHeading from '@/utils/components/topHeading';
 
 
 export default function Page() {
@@ -25,9 +26,12 @@ export default function Page() {
         <Navbar />
       </header>
       <main>
+        <TopHeading
+          heading="About Us"
+        />
         <ContentWithImageRight
           imageSrc="ElmwoodBoundries.webp"
-          heading="About Us"
+          heading="Elmwood Park"
           bodyText1="Elmwood Park Community League is a small community league located in the Elmwood Park. Elmwood Park has been an integral part within the community, hosting seasonal events and get-togethers for all individuals. Although small, Elmwood Park continues to grow and expand its projects and outreach. These include events like Walk Your Block, Volunteer Opportunities as-well as the planting of Elm Tree all around the community for the Veterans who live in the community."
           bodyText2="Recently, Elmwood Park has renovated and completed its newest Den, which is also available for rental. Furthermore, the Community Garden has also undergone renovations and expanded into a much larger plot allowing for additional community members to come and reserve their garden plot!"
         />
