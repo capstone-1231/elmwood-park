@@ -73,7 +73,6 @@ const Navbar = () => {
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
-              borderRadius: '5rem'
             },
           }}
           >Home</Link>
@@ -81,14 +80,12 @@ const Navbar = () => {
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
-              borderRadius: '5rem',
             },
           }}>About Us</Link>
           <Link href='/membership' color="inherit" disableRipple sx={{
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
-              borderRadius: '5rem',
             },
           }}>Membership</Link>
         </LinkContainer>
@@ -98,21 +95,18 @@ const Navbar = () => {
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
-              borderRadius: '5rem',
             },
           }}>Amenities</Link>
           <Link href='events' color="inherit" disableRipple sx={{
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
-              borderRadius: '5rem',
             },
           }}>Events</Link>
           <Link href='contact_us' color="inherit" disableRipple sx={{
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',
               color: '#ffffff',
-              borderRadius: '5rem',
             },
           }}>Contact Us</Link>
         </LinkContainer>
@@ -131,7 +125,6 @@ const Navbar = () => {
           className={showMobileMenu ? 'menu-icon' : ''}>
           {showMobileMenu ? <CloseIcon sx={{ fontSize: 50 }} /> : <MenuIcon sx={{ fontSize: 50 }} />}
         </IconButton>
-
         {showMobileMenu && (
           <MobileMenu>
             <Link href='/' color="inherit" sx={{
