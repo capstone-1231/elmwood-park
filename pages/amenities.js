@@ -65,7 +65,7 @@ export default function Page() {
         paragraph3="The Landscaped Green Space is a small slice of peace and quiet. Our freshly landscaped green space is ideal for any kind of event, large or small. Complete with an outdoor kitchen and pergola! The rate for the Landscaped Green Space is $50 for the day for members or $75 for the day for non-members."
         paragraph4="Alternatively, we also offer our Board Room or Den with the Green Space at a rate of $120 for members or $150 for non members. A DAMAGE DEPOSIT IS REQUIRED AND ALL RENTALS COME WITH WASHROOM USE."
       />
-      <ImgList/>
+      <ImgList />
       </Container>
       <MobileImgCarousel/>
       <HeadingWithTextBelowContained

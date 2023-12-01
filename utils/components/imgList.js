@@ -87,7 +87,7 @@ export default function ImgList() {
             key={item.img}
             src={item.img}
             alt={item.title}
-            style={{ width: '100%', height: '60%', paddingLeft: '0.5rem'}}
+            style={{ width: '100%', height: '60%', paddingLeft: '0.5rem', paddingTop: '2rem'}}
           />
         ))}
       </Carousel>

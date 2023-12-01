@@ -21,7 +21,7 @@ export default function CardCarousel() {
             display: { xs: "flex", sm: "flex", md: "flex", lg: "none", xl: "none" }
         }}>
             <Carousel sx={{ width: '100%' }}>
-                <Card sx={{ width: '100%', display: 'flex', alignItems: 'center', height: '15rem' }}>
+                <Card sx={{ width: '100%', display: 'flex', alignItems: 'center', height: '15rem', border: '2px solid #816719' }}>
                     <Box>
                         <CardContent sx={{ padding: '1rem' }}>
                             <Typography variant='h3'>RatCreek Press</Typography>
@@ -40,7 +40,7 @@ export default function CardCarousel() {
                         </CardActions>
                     </Box>
                 </Card>
-                <Card sx={{ width: '100%', display: 'flex', alignItems: 'center', height: '15rem' }}>
+                <Card sx={{ width: '100%', display: 'flex', alignItems: 'center', height: '15rem', border: '2px solid #816719' }}>
                     <Box>
                         <CardContent sx={{ padding: '1rem' }}>
                             <Typography variant='h3'>Volunteer Opportunities</Typography>
@@ -59,7 +59,7 @@ export default function CardCarousel() {
                         </CardActions>
                     </Box>
                 </Card>
-                <Card sx={{ width: '100%', display: 'flex', alignItems: 'center', height: '15rem' }}>
+                <Card sx={{ width: '100%', display: 'flex', alignItems: 'center', height: '15rem', border: '2px solid #816719' }}>
                     <Box>
                         <CardContent sx={{ padding: '1rem' }}>
                             <Typography variant='h3'>Hall Rentals</Typography>
@@ -78,7 +78,7 @@ export default function CardCarousel() {
                         </CardActions>
                     </Box>
                 </Card>
-                <Card sx={{ width: '100%', display: 'flex', alignItems: 'center',  height: '15rem' }}>
+                <Card sx={{ width: '100%', display: 'flex', alignItems: 'center',  height: '15rem', border: '2px solid #816719' }}>
                     <Box>
                         <CardContent sx={{ padding: '1rem' }}>
                             <Typography variant='h3'>Have A Question?</Typography>
