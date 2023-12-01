@@ -41,7 +41,7 @@ export default function Page() {
           bodyText1="These bylaws were assumed from a template provided by the Edmonton Federation of Community Leagues and edited to suit Elmwood Park Community League. A vote was held at the AGM on September 26th, 2018 and the new bylaws were adopted."
           bodyText2="Elmwood Park Community League prides itself on these Bylaws introduced by the Edmonton Federation of the Community Leagues."
           bodyText3="All residents and community staff members respect these bylaws and expect all individuals to obey and abide by these bylaws."
-          bodyText4="​If you have any questions, please email president Morgan Wolf at epcl.info @ shaw.ca or attend one of the monthly meetings!"
+          bodyText4="​If you have any questions, please email president Morgan Wolf at ElmwoodparkCl.info@gmail.com or attend one of the monthly meetings!"
           buttonLink="/files/EPCL_Bylaws_2018.pdf"
           buttonText="View Bylaws"
         />
