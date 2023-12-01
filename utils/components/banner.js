@@ -62,6 +62,7 @@ const HeroBanner = () => {
               type="submit"
               variant="contained"
               color="primary"
+              aria-label='Join us today!'
               disableRipple
               sx={{
                 width: '12rem',
@@ -121,6 +122,7 @@ const HeroBanner = () => {
               type="submit"
               variant="contained"
               color="primary"
+              aria-label='Join us today!'
               sx={{
                 width: '12rem',
                 borderRadius: '0.8rem',

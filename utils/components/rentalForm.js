@@ -242,6 +242,7 @@ const RentalForm = () => {
           <Button
             variant={formData.spaceType === 'Den' ? 'contained' : 'outlined'}
             onClick={() => handleButtonClick('Den')}
+            aria-label='Den'
             sx={{
               flexGrow: 1,
               color: formData.spaceType === 'Den' ? '#FFFFFF' : '#302400',
@@ -264,6 +265,7 @@ const RentalForm = () => {
           <Button
             variant={formData.spaceType === 'Board Room' ? 'contained' : 'outlined'}
             onClick={() => handleButtonClick('Board Room')}
+            aria-label='Board Room'
             sx={{
               flexGrow: 1,
               color: formData.spaceType === 'Board Room' ? '#FFFFFF' : '#302400',
@@ -285,6 +287,7 @@ const RentalForm = () => {
           <Button
             variant={formData.spaceType === 'Green Space' ? 'contained' : 'outlined'}
             onClick={() => handleButtonClick('Green Space')}
+            aria-label='Green Spaces'
             sx={{
               flexGrow: 1,
               color: formData.spaceType === 'Green Space' ? '#FFFFFF' : '#302400',
@@ -306,6 +309,7 @@ const RentalForm = () => {
           <Button
             variant={formData.spaceType === 'Den & Green Space' ? 'contained' : 'outlined'}
             onClick={() => handleButtonClick('Den & Green Space')}
+            aria-label='Den & Green Space'
             sx={{
               flexGrow: 1,
               color: formData.spaceType === 'Den & Green Space' ? '#FFFFFF' : '#302400',
@@ -327,6 +331,7 @@ const RentalForm = () => {
           <Button
             variant={formData.spaceType === 'Board & Green Space' ? 'contained' : 'outlined'}
             onClick={() => handleButtonClick('Board & Green Space')}
+            aria-label='Board & Green Space'
             sx={{
               flexGrow: 1,
               color: formData.spaceType === 'Board & Green Space' ? '#FFFFFF' : '#302400',
@@ -390,6 +395,7 @@ const RentalForm = () => {
           type="submit"
           variant="contained"
           color="primary"
+          aria-label='Submit'
           sx={{
             width: '100%',
             borderRadius: '0.8rem',

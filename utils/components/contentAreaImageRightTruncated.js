@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { styled } from '@mui/system';
-import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
@@ -70,7 +69,7 @@ const ContentWithImageRightTruncated = ({ imageSrc, heading, bodyText }) => {
           {showFullText || !isScreenSizeBelowMd ? bodyText : `${bodyText.slice(0, 400)}...`}
           {isScreenSizeBelowMd && (
             <Box display="block">
-              <ReadMoreButton variant="contained" color="primary" sx={{
+              <ReadMoreButton variant="contained" aria-label='Read More/Read Less' color="primary" sx={{
                 ':hover, :active, :focus': {
                   bgcolor: 'secondary.main',
                   color: '#ffffff',

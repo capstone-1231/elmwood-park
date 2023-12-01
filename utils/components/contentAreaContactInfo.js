@@ -61,7 +61,7 @@ const ContactInfo = ({ heading, phone, address, email, facebook }) => {
         </IconFlex>
         <IconFlex>
             <FacebookIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }} />
-            <Link href="https://www.facebook.com/ElmwoodParkCL/" target="_blank" variant="body1" color="link.default" sx={{ textDecoration: "none",
+            <Link href="https://www.facebook.com/ElmwoodParkCL/" alt="Facebook Link" target="_blank" variant="body1" color="link.default" sx={{ textDecoration: "none",
             padding: "1rem" }}>
             {facebook}
             </Link>
