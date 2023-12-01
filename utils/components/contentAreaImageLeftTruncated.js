@@ -75,7 +75,7 @@ const ContentWithImageLeftTruncated = ({ imageSrc, heading, bodyText }) => {
           {showFullText || !isScreenSizeBelowMd ? bodyText : `${bodyText.slice(0, 400)}...`}
           {isScreenSizeBelowMd && (
             <Box display="block">
-              <ReadMoreButton variant="contained" color="primary" sx={{
+              <ReadMoreButton variant="contained" aria-label='Read More/Read Less' color="primary" sx={{
                 ':hover, :active, :focus': {
                   bgcolor: 'secondary.main',
                   color: '#ffffff',

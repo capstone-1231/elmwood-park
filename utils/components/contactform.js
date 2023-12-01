@@ -229,6 +229,7 @@ const ContactForm = () => {
           type="submit"
           variant="contained"
           color="primary"
+          aria-label='Submit'
           sx={{
             width: '100%',
             borderRadius: '0.8rem',

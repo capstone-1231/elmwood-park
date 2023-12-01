@@ -30,7 +30,7 @@ export default function CardCarousel() {
                             <Typography>Take a look at articles that feature Elmwood Park.</Typography>
                         </CardContent>
                         <CardActions sx={{ padding: '1rem' }}>
-                            <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                            <Button href='/contact_us' aria-label='Take a look!' variant='contained' size='small' color="primary" disableRipple sx={{
                                 borderRadius: '0.8rem',
                                 '&:hover, &:active, &:focus': {
                                     bgcolor: theme.palette.secondary.main,
@@ -49,7 +49,7 @@ export default function CardCarousel() {
                             <Typography>Explore opportunities at Elmwood Park.</Typography>
                         </CardContent>
                         <CardActions sx={{ padding: '1rem' }}>
-                            <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                            <Button href='/contact_us' aria-label='Find Out More!' variant='contained' size='small' color="primary" disableRipple sx={{
                                 borderRadius: '0.8rem',
                                 ':hover, :active, :focus': {
                                     bgcolor: 'secondary.main',
@@ -68,7 +68,7 @@ export default function CardCarousel() {
                             <Typography>Discover rentable spaces at Elmwood Park.</Typography>
                         </CardContent>
                         <CardActions sx={{ padding: '1rem' }}>
-                            <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                            <Button href='/contact_us' aria-label='Book Now!' variant='contained' size='small' color="primary" disableRipple sx={{
                                 borderRadius: '0.8rem',
                                 ':hover, :active, :focus': {
                                     bgcolor: 'secondary.main',
@@ -87,7 +87,7 @@ export default function CardCarousel() {
                             <Typography>Reach out to us for any questions or inquires.</Typography>
                         </CardContent>
                         <CardActions sx={{ padding: '1rem' }}>
-                            <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                            <Button href='/contact_us' aria-label='Contact Us' variant='contained' size='small' color="primary" disableRipple sx={{
                                 borderRadius: '0.8rem',
                                 ':hover, :active, :focus': {
                                     bgcolor: 'secondary.main',

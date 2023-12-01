@@ -2,7 +2,6 @@ import Head from 'next/head';
 
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
-import Typography from '@mui/material/Typography';
 
 import ContentAreaImageRightBulletedList from '@/utils/components/contentAreaImageRightBulletedList';
 import HeadingWithTextBelowContained from '@/utils/components/headingWithTextBelowContained';

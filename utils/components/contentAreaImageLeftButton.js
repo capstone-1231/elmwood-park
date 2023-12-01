@@ -75,7 +75,7 @@ const ContentWithImageLeftButton = ({ imageSrc, heading, bodyText1, bodyText2, b
           {bodyText4}
         </Typography>
         <Box display="block">
-        <a href={buttonLink} target="_blank">
+        <a href={buttonLink} target="_blank" aria-label="Button">
           <ReadMoreButton variant="contained" color="primary" sx={{
             ':hover, :active, :focus': {
               bgcolor: 'secondary.main',

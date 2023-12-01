@@ -1,10 +1,8 @@
 import React from 'react';
 import { styled } from '@mui/system';
-import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
 
 const StyledContainer = styled(Container)({
   display: 'flex',

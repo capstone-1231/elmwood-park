@@ -121,13 +121,14 @@ const Navbar = () => {
         <IconButton
           onClick={toggleMobileMenu}
           color="inherit"
+          aria-label='Hamburger Menu'
           sx={{ transition: 'transform 0.3s ease', transform: showMobileMenu ? 'rotate(90deg)' : 'rotate(0)' }}
           className={showMobileMenu ? 'menu-icon' : ''}>
           {showMobileMenu ? <CloseIcon sx={{ fontSize: 50 }} /> : <MenuIcon sx={{ fontSize: 50 }} />}
         </IconButton>
         {showMobileMenu && (
           <MobileMenu>
-            <Link href='/' color="inherit" sx={{
+            <Link href='/' color="inherit" aria-label='Home' sx={{
               width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
@@ -137,7 +138,7 @@ const Navbar = () => {
               },
             }}
             >Home</Link>
-            <Link href='/about_us' color="inherit" sx={{
+            <Link href='/about_us' color="inherit" aria-label='About Us' sx={{
               width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
@@ -146,7 +147,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>About Us</Link>
-            <Link href='/membership' color="inherit" sx={{
+            <Link href='/membership' color="inherit" aria-label='Membership' sx={{
               width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
@@ -155,7 +156,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>Membership</Link>
-            <Link href='/amenities' color="inherit" sx={{
+            <Link href='/amenities' color="inherit" aria-label='Amenities' sx={{
               width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
@@ -164,7 +165,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>Amenities</Link>
-            <Link href='/events' color="inherit" sx={{
+            <Link href='/events' color="inherit" aria-label='Events' sx={{
               width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {
@@ -173,7 +174,7 @@ const Navbar = () => {
                 borderRadius: '5rem',
               },
             }}>Events</Link>
-            <Link href='/contact_us' color="inherit" sx={{
+            <Link href='/contact_us' color="inherit" aria-label='Contact Us' sx={{
               width: '98%',
               margin: '0.5rem',
               ':hover, :active, :focus': {

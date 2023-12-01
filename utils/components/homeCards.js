@@ -27,7 +27,7 @@ export default function homeCards() {
                         <Typography>Take a look at posts that feature Elmwood Park.</Typography>
                     </CardContent>
                     <CardActions sx={{ padding: '1rem' }}>
-                        <Button href='https://www.facebook.com/ElmwoodParkCL' target='_blank' variant='contained' size='small' color="primary" disableRipple sx={{
+                        <Button href='https://www.facebook.com/ElmwoodParkCL' target='_blank' aria-label='Take a Look!' variant='contained' size='small' color="primary" disableRipple sx={{
                             borderRadius: '0.8rem',
                             ':hover, :active, :focus': {
                                 bgcolor: 'secondary.main',
@@ -46,7 +46,7 @@ export default function homeCards() {
                         <Typography>Explore Opportunities at Elmwood Park.</Typography>
                     </CardContent>
                     <CardActions sx={{ padding: '1rem' }}>
-                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                        <Button href='/contact_us' aria-label='Find Out More!' variant='contained' size='small' color="primary" disableRipple sx={{
                             borderRadius: '0.8rem',
                             ':hover, :active, :focus': {
                                 bgcolor: 'secondary.main',
@@ -65,7 +65,7 @@ export default function homeCards() {
                         <Typography>Discover rentable spaces at Elmwood Park.</Typography>
                     </CardContent>
                     <CardActions sx={{ padding: '1rem' }}>
-                        <Button href='/amenities' variant='contained' size='small' color="primary" disableRipple sx={{
+                        <Button href='/amenities' aria-label='Book Now!' variant='contained' size='small' color="primary" disableRipple sx={{
                             borderRadius: '0.8rem',
                             ':hover, :active, :focus': {
                                 bgcolor: 'secondary.main',
@@ -84,7 +84,7 @@ export default function homeCards() {
                         <Typography>Reach out to us for any questions and inquires.</Typography>
                     </CardContent>
                     <CardActions sx={{ padding: '1rem' }}>
-                        <Button href='/contact_us' variant='contained' size='small' color="primary" disableRipple sx={{
+                        <Button href='/contact_us' aria-label='Contact Us' variant='contained' size='small' color="primary" disableRipple sx={{
                             borderRadius: '0.8rem',
                             ':hover, :active, :focus': {
                                 bgcolor: 'secondary.main',

@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 export default function MobileCards() {
   return (
     <Container sx={{
-      width: "70%",
+      width: "90%",
       flexWrap: "wrap",
       justifyContent: "space-around",
       alignItems: "center",

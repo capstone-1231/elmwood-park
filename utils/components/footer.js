@@ -75,19 +75,19 @@ const FooterNav = () => {
         <IconContainer sx={{
           flexDirection: { xs: "column", sm: "column", md: "column", lg: "row", xl: "row" },
         }}>
-          <Link href='/'><Icon src="elmwood-park-logo-updated.png" alt="Elmwood Park Community League Icon" /></Link>
+          <Link href='/' aria-label='Elmwood Park Community League Icon'><Icon src="elmwood-park-logo-updated.png" alt="Elmwood Park Community League Icon" /></Link>
           <SocialIconContainer sx={{
             flexDirection: { xs: "row", sm: "row", md: "row", lg: "column", xl: "column" },
             padding: { xs: "2rem 0 0 0", sm: "2rem 0 0 0", md: "2rem 0 0 0", lg: "inherit", xl: "inherit" }
           }}>
-            <Link href="https://www.facebook.com/ElmwoodParkCL/" target="_blank" variant="body1" alt="Facebook Link" color="link.default" sx={{ textDecoration: "none", }}>
-            <FacebookRoundedIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }}/>
+            <Link href="https://www.facebook.com/ElmwoodParkCL/" target="_blank" variant="body1" aria-label="Facebook Link" color="link.default" sx={{ textDecoration: "none", }}>
+            <FacebookRoundedIcon alt="Facebook Link" sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }}/>
             </Link>
-            <Link href="/files/EPCL_Copyright.txt" target="_blank" variant="body1" alt="Copyright Link" color="link.default" sx={{ textDecoration: "none", }}>
-            <CopyrightIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }}/>
+            <Link href="/files/EPCL_Copyright.txt" target="_blank" variant="body1" aria-label="Copyright Link" color="link.default" sx={{ textDecoration: "none", }}>
+            <CopyrightIcon alt="Copyright Link" sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }}/>
             </Link>
-            <Link href="/files/EPCL_PrivacyPolicy.txt" target="_blank" variant="body1" alt="Privacy Policy Link" color="link.default" sx={{ textDecoration: "none", }}>
-            <PolicyIcon sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }}/>
+            <Link href="/files/EPCL_PrivacyPolicy.txt" target="_blank" variant="body1" aria-label="Privacy Policy Link" color="link.default" sx={{ textDecoration: "none", }}>
+            <PolicyIcon alt="Privacy Policy Link" sx={{ fontSize: { xs: 50, sm: 50, md: 50, lg: 30, xl: 30 } }}/>
             </Link>
           </SocialIconContainer>
         </IconContainer>
@@ -97,12 +97,12 @@ const FooterNav = () => {
           <LinkContainer sx={{
             flexDirection: { xs: "column", sm: "column", md: "column", lg: "column", xl: "row" },
           }}>
-            <Link href='/' color="inherit" disableRipple sx={{
+            <Link href='/' color="inherit" aria-label='Home' disableRipple sx={{
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',              },
             }}>Home</Link>
-            <Link href='/about_us' color="inherit" disableRipple sx={{
+            <Link href='/about_us' color="inherit" aria-label='About Us' disableRipple sx={{
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',
@@ -112,13 +112,13 @@ const FooterNav = () => {
           <LinkContainer sx={{
             flexDirection: { xs: "column", sm: "column", md: "column", lg: "column", xl: "row" },
           }}>
-            <Link href='/membership' color="inherit" disableRipple sx={{
+            <Link href='/membership' color="inherit" aria-label='Membership' disableRipple sx={{
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',
               },
             }}>Membership</Link>
-            <Link href='/amenities' color="inherit" disableRipple sx={{
+            <Link href='/amenities' color="inherit" aria-label='Amenities' disableRipple sx={{
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',
@@ -128,13 +128,13 @@ const FooterNav = () => {
           <LinkContainer sx={{
             flexDirection: { xs: "column", sm: "column", md: "column", lg: "column", xl: "row" },
           }}>
-            <Link href='events' color="inherit" disableRipple sx={{
+            <Link href='events' color="inherit" aria-label='Events' disableRipple sx={{
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',
               },
             }}>Events</Link>
-            <Link href='contact_us' color="inherit" disableRipple sx={{
+            <Link href='contact_us' color="inherit" aria-label='Contact Us' disableRipple sx={{
               ':hover, :active, :focus': {
                 bgcolor: 'secondary.main',
                 color: '#ffffff',
