@@ -37,10 +37,6 @@ export default function ImgList() {
       title: 'Garden',
     },
     {
-      img: './img/ElmwoodParkKitchen.webp',
-      title: 'Kitechen',
-    },
-    {
       img: './img/ElmwoodParkKitechen2.webp',
       title: 'Kitechen',
     },
