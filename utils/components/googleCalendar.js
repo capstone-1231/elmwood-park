@@ -42,7 +42,6 @@ export default function GoogleCalendar() {
                     height: iframeHeight,
                     border: 'none',
                     paddingBottom: '2.5rem',
-                    //.view-cap, .view-container-border
                 }}
             />
         </div>
