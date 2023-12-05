@@ -71,7 +71,7 @@ const ContentWithImageRight2 = ({ imageSrc, heading, heading2, bodyText1, bodyTe
         </Typography>
       </Box>
       <StyledImageContainer sx={{
-        paddingRight: { xs: "0", sm: "0", md: "0", lg: "1rem", xl: "1rem" },
+        paddingRight: { xs: "0", sm: "0", md: "0", lg: "0", xl: "0" },
       }}>
         <StyledImage src={imageSrc} alt="Content Image" />
       </StyledImageContainer>
