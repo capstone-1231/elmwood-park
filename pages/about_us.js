@@ -56,7 +56,7 @@ export default function Page() {
           <Typography variant="h3" component="h2" color="#816719" sx={{ padding: '2rem 1rem', textAlign: 'center' }}>
               Members at Large
           </Typography>
-          <Typography sx={{ paddingBottom: '1rem', textAlign: 'center' }}>
+          <Typography sx={{ paddingBottom: '6rem', textAlign: 'center' }}>
               Jaqueline Williams, Phil Moore, Cindy Verner
           </Typography>
         </Container>
