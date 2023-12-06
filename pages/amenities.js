@@ -36,7 +36,7 @@ export default function Page() {
         for various activities. We also offer:"
       />
       <ContentAreaImageRightBulletedList
-        imageSrc="ElmwoodCommunityPark.webp"
+        imageSrc="/img/ElmwoodParkOutside.webp"
         listItem1="Hall with a large fenced in yard that includes a firepit (rent now!)"
         listItem2="Board Room perfect for arts or crafts (rent now!)"
         listItem3="Landscaped Green Space (rent now!)"
