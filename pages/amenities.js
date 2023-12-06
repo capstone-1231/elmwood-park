@@ -3,9 +3,6 @@ import Container from '@mui/material/Container';
 import Navbar from '@/utils/components/header';
 import FooterNav from '@/utils/components/footer';
 import RentalForm from '@/utils/components/rentalForm';
-
-import Typography from '@mui/material/Typography';
-
 import ImgList from '@/utils/components/imgList';
 import MobileImgCarousel from '@/utils/components/mobileImgCarousel';
 import HeadingWithTextBelowContained from '@/utils/components/headingWithTextBelowContained';
