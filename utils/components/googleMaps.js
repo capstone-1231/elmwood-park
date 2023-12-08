@@ -25,7 +25,7 @@ const GoogleMaps = () => {
         lng: -113.45711114471045,
     }
 
-    const api = process.env.GOOGLE_MAPS_KEY
+    const api = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY
 
     return (
         <Paper elevation={3}>
