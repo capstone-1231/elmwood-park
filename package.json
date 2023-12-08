@@ -25,8 +25,7 @@
     "next": "^13.5.4",
     "react": "latest",
     "react-dom": "latest",
-    "react-material-ui-carousel": "^3.4.2",
-    "snake-game-react": "^1.0.6"
+    "react-material-ui-carousel": "^3.4.2"
   },
   "devDependencies": {
     "autoprefixer": "latest",
