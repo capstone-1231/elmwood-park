@@ -29,7 +29,7 @@ const GoogleMaps = () => {
 
   return (
     <Paper elevation={3}>
-      <LoadScript googleMapsApiKey={"AIzaSyB3IPH0LwY-wo38Bc4nCbZ11gGOz0wh4uo"}>
+      <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY}>
         <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={15}>
           {/* Marker component */}
           <Marker position={markerPosition} onClick={handleMarkerClick} />
