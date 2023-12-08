@@ -46,7 +46,7 @@ const GoogleMaps = () => {
                 />
                 <div>
                   <Typography variant="subtitle1">Elmwood Park Community League</Typography>
-                  <Typography>Community center and park</Typography>
+                  <Typography>Community Center and Park</Typography>
                 </div>
               </div>
             </InfoWindow>
