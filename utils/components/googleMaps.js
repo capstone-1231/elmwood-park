@@ -43,8 +43,6 @@ const GoogleMaps = () => {
       </div>
     </InfoWindow>
   );
-
-  console.log(process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY);
   
   return (
     <Paper elevation={3}>
