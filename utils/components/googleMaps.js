@@ -3,61 +3,58 @@ import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/ap
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 
-const GoogleMaps = () => { 
-    const [isInfoWindowOpen, setIsInfoWindowOpen] = useState(true)
+const GoogleMaps = () => {
+  const [isInfoWindowOpen, setIsInfoWindowOpen] = useState(true);
 
-    const handleMarkerClick = () => {
-        setIsInfoWindowOpen(!isInfoWindowOpen)
-    }  
+  const handleMarkerClick = () => {
+    setIsInfoWindowOpen(!isInfoWindowOpen);
+  };
 
-    const containerStyle = {
-        width: '100%',
-        height: '500px',
-    }
-    
-    const center = {
-        lat: 53.583973139537335,
-        lng: -113.45711114471045,
-    }
-    
-    const markerPosition = {
-        lat: 53.583973139537335,
-        lng: -113.45711114471045,
-    }
+  const containerStyle = {
+    width: '100%',
+    height: '500px',
+  };
 
-    const api = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY
-    
+  const center = {
+    lat: 53.583973139537335,
+    lng: -113.45711114471045,
+  };
 
-    return (
-        <Paper elevation={3}>
-            <LoadScript googleMapsApiKey={api}>
-                <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={15}>
-                    {/* Marker component */}
-                    <Marker position={markerPosition} onClick={handleMarkerClick} />
+  const markerPosition = {
+    lat: 53.583973139537335,
+    lng: -113.45711114471045,
+  };
 
-                    {/* InfoWindow component */}
-                    {isInfoWindowOpen && (
-                        <InfoWindow
-                            position={markerPosition}
-                            onCloseClick={() => setIsInfoWindowOpen(false)}
-                        >
-                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                <img
-                                    src={"favicon.ico"}
-                                    alt="Thumbnail"
-                                    style={{ maxWidth: '100px', maxHeight: '10%', marginRight: '1rem' }}
-                                />
-                                <div>
-                                    <Typography variant="subtitle1">Elmwood Park Community League</Typography>
-                                    <Typography>Community center and park</Typography>
-                                </div>
-                            </div>
-                        </InfoWindow>
-                    )}
-                </GoogleMap>
-            </LoadScript>
-        </Paper>
-    )
-}
+  return (
+    <Paper elevation={3}>
+      <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY}>
+        <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={15}>
+          {/* Marker component */}
+          <Marker position={markerPosition} onClick={handleMarkerClick} />
+
+          {/* InfoWindow component */}
+          {isInfoWindowOpen && (
+            <InfoWindow
+              position={markerPosition}
+              onCloseClick={() => setIsInfoWindowOpen(false)}
+            >
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <img
+                  src={"favicon.ico"}
+                  alt="Thumbnail"
+                  style={{ maxWidth: '100px', maxHeight: '10%', marginRight: '1rem' }}
+                />
+                <div>
+                  <Typography variant="subtitle1">Elmwood Park Community League</Typography>
+                  <Typography>Community center and park</Typography>
+                </div>
+              </div>
+            </InfoWindow>
+          )}
+        </GoogleMap>
+      </LoadScript>
+    </Paper>
+  );
+};
 
 export default GoogleMaps;
